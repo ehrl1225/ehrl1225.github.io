@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 06 Jul 2025 07:23:19 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 06 Jul 2025 07:22:51 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 06 Jul 2025 23:35:26 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 06 Jul 2025 23:35:00 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
  <br><br>오류를 수정하는 것<br>
 정확히는 의도와 다르게 작동하는 것을 의도와 맞게 작동되게 만드는 것<br>
 실제로 옛날에 컴퓨터에 벌레가 들어가 오류를 발생시킨 것을 벌레를 빼면서 오류를 수정한 적 있는데<br>
@@ -29,7 +29,7 @@ ctrl + win + T]]></description><link>기타\윈도우 단축키.html</link><guid
  ]]></description><link>컴퓨터 공학\수학\선형대수학.html</link><guid isPermaLink="false">컴퓨터 공학/수학/선형대수학.md</guid><pubDate>Mon, 30 Jun 2025 07:47:43 GMT</pubDate></item><item><title><![CDATA[카오스 이론]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\수학\카오스 이론.html</link><guid isPermaLink="false">컴퓨터 공학/수학/카오스 이론.md</guid><pubDate>Mon, 30 Jun 2025 07:47:22 GMT</pubDate></item><item><title><![CDATA[맥북에서 Docker 설치시 주의 사항]]></title><description><![CDATA[ 
  <br>맥북은 <a data-href="ARM" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\ARM.html" class="internal-link" target="_self" rel="noopener nofollow">ARM</a>아키텍쳐를 가지고 있기에 docker 설치시에 ARM 버전으로 설치해야한다.<br>
-기본적으로는 <a data-href="x86" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\x86.html" class="internal-link" target="_self" rel="noopener nofollow">x86</a>아키텍쳐로 설치하기 때문에 ]]></description><link>컴퓨터 공학\운영체제\가상화\docker\맥북에서 Docker 설치시 주의 사항.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/가상화/docker/맥북에서 Docker 설치시 주의 사항.md</guid><pubDate>Tue, 01 Jul 2025 00:09:10 GMT</pubDate></item><item><title><![CDATA[Docker]]></title><description><![CDATA[ 
+기본적으로는 <a data-href="x86" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\x86.html" class="internal-link" target="_self" rel="noopener nofollow">x86</a>아키텍쳐로 설치하기 때문에 에뮬레이터를 통해 x86으로 만들어진 명령어를 실행한다.]]></description><link>컴퓨터 공학\운영체제\가상화\docker\맥북에서 Docker 설치시 주의 사항.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/가상화/docker/맥북에서 Docker 설치시 주의 사항.md</guid><pubDate>Sun, 06 Jul 2025 12:41:42 GMT</pubDate></item><item><title><![CDATA[Docker]]></title><description><![CDATA[ 
  <br>개발된 환경을 이미지로 저장하고<br>
 이미지를 DockerHub에 올릴 수 있고<br>
 이미지 여러 개를 함께 연결 되어서 동작하게 설정된 상태를 명령어 텍스트나 문서 형태로 저장이 가능하다.<br>
@@ -2346,9 +2346,22 @@ Insert시 추가 작업이 필요하다. (인덱스 생성한다.)<br><br>0.5초
 이 level에서는 보통 MVCC가 적용되지 않는다.<br>postgresql의 경우 read uncommitted level이 존재하지만<br>
 read committed level처럼 동작한다.<br><br>두 개의 트랜잭션이 동시에 돌아갈 때 같은 데이터에 접근할 때 둘다 read committed의 경우<br>
 한 트랜잭션의 연산을 무시하게 되는데 이 상황을 말한다.<br><br>한 트랜잭션의 Isolation level을 변경한다.<br>postgresql에서는 repeatable read level에서 같은 데이터에 먼저 update한 tx가 commit되면 나중 tx는 rollback이 된다.<br>
-먼저 업데이트 한 트랜잭션이 이긴다고 해서 first-updater-win이라고 부른다.<br>mysql에서는 위 개념이 없어서 오류가 발생한다.<br><br>MVCC는 데이터를 읽을 때 특정 시점 기준으로 가장 최근에 commit된 데이터를 읽는다.<br>
+먼저 업데이트 한 트랜잭션이 이긴다고 해서 first-updater-win이라고 부른다.<br><br>mysql에서는 위 개념이 없어서 오류가 발생한다.<br>읽을 때 Locking read를 한다.<br>
+select 문에 for update 또는 for share를 붙여서 locking read를 한다.<br>
+for update는 exclusive lock을 획득하고<br>
+for share는 share lock을 획득한다.<br>처음으로 locking read를 하면 lock을 걸어서 읽지 못하게 막는다.<br>
+두번쨰로 locking read를 하면 읽지 못하다가 commit이 끝난 후 읽는다.<br>locking read는 가장 최근의 commit된 데이터를 읽는다.<br>
+따라서 업데이트가 된 데이터를 읽는다.<br><br>repeatable read isolation level에서<br>
+두 개의 트랜잭션이 두 변수에 접근해 각각 다른 변수에 쓰는데<br>
+각각 한개의 연산이 무시되어서 이상한 결과를 발생시키는 현상이다.<br>
+예시 문제는 transaction 1은 x와 y를 더해서 x에 쓰고<br>
+transaction 2는 x와 y를 더해서 y에 쓴다.<br><br>locking read를 사용한다.<br><br>위와 같은 방식을 사용하면 rollback이 되는 <a data-tooltip-position="top" aria-label="MVCC > Lost Update > postgresql 해결방법" data-href="MVCC#Lost Update#postgresql 해결방법" href="컴퓨터 공학\프로그램\데이터 베이스\DB\MVCC.html#Lost_Update" class="internal-link" target="_self" rel="noopener nofollow">문제</a>가 발생한다.<br>
+그래서 다시 시도를 해야한다.<br><br><br>repeatable read와 유사하다<br>
+트랜잭션의 모든 평범한 select 문은 암묵적으로 select for share 처럼 동작한다.<br>
+for update 보다 데드락이 걸릴 가능성이 높기에 주의해야한다.<br><br>SSI로 구현한다.<br>
+first-committer-winner 방식이다.<br><br>MVCC는 데이터를 읽을 때 특정 시점 기준으로 가장 최근에 commit된 데이터를 읽는다.<br>
 데이터 변화 이력을 관리한다.<br>
-read와 write는 서로를 block 하지 않는다.<br>이렇게 읽는 것을 MySql에서는 Consistent Read라고 부른다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DB\MVCC.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DB/MVCC.md</guid><pubDate>Fri, 04 Jul 2025 08:21:54 GMT</pubDate></item><item><title><![CDATA[ERD]]></title><description><![CDATA[ 
+read와 write는 서로를 block 하지 않는다.<br>이렇게 읽는 것을 MySql에서는 Consistent Read라고 부른다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DB\MVCC.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DB/MVCC.md</guid><pubDate>Sun, 06 Jul 2025 14:52:37 GMT</pubDate></item><item><title><![CDATA[ERD]]></title><description><![CDATA[ 
  <br><br>어떤 정보가 있는지 알게 해주고<br>
 정보를 그룹화 시켜 묶고<br>
 그 그룹간의 관계를 표현한다.<br><br>표 안에 표로 표현하면 안된다.<br>
@@ -2436,8 +2449,10 @@ PreparedStatement preparedStatement = connection.prepareStatement(query, Stateme
 preparedStatement.setString(1, content);
 preparedStatement.setString(2, author);
 <br>이런식으로 가능함]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\MySql\MySql 팁.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/MySql/MySql 팁.md</guid><pubDate>Thu, 29 May 2025 00:10:37 GMT</pubDate></item><item><title><![CDATA[Oracle]]></title><description><![CDATA[ 
- <br>Oracle 사에서 만든 데이터베이스]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\Oracle\Oracle.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/Oracle/Oracle.md</guid><pubDate>Fri, 20 Jun 2025 08:32:37 GMT</pubDate></item><item><title><![CDATA[Postgresql]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\Postgresql\Postgresql.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/Postgresql/Postgresql.md</guid><pubDate>Fri, 20 Jun 2025 08:32:23 GMT</pubDate></item><item><title><![CDATA[Sqlite]]></title><description><![CDATA[ 
+ <br>Oracle 사에서 만든 데이터베이스]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\Oracle\Oracle.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/Oracle/Oracle.md</guid><pubDate>Fri, 20 Jun 2025 08:32:37 GMT</pubDate></item><item><title><![CDATA[출처]]></title><description><![CDATA[ 
+ <br>The PostgreSQL Global Development Group에서 개발하는 오픈 소스 ORDBMS다.<br><a data-href="MySql" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\MySql\MySql.html" class="internal-link" target="_self" rel="noopener nofollow">MySql</a>에 비해서 SQL 표준을 더 잘 지원하고 기능이 더 강력하고<br>
+쿼리가 복잡해질수록 성능이 더 잘 나오는 편이다.<br><br><a data-tooltip-position="top" aria-label="https://namu.wiki/w/PostgreSQL#%ED%83%80%20DB%EC%99%80%EC%9D%98%20%EB%B9%84%EA%B5%90" rel="noopener nofollow" class="external-link" href="https://namu.wiki/w/PostgreSQL#%ED%83%80%20DB%EC%99%80%EC%9D%98%20%EB%B9%84%EA%B5%90" target="_blank">나무위키</a><br>
+<a data-tooltip-position="top" aria-label="https://youtu.be/-PbP1TcD94Q?si=19VVSk4LX468LUIJ" rel="noopener nofollow" class="external-link" href="https://youtu.be/-PbP1TcD94Q?si=19VVSk4LX468LUIJ" target="_blank">MYSQL vs PostgreSQL 당신의 선택은?</a>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\Postgresql\Postgresql.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/Postgresql/Postgresql.md</guid><pubDate>Sun, 06 Jul 2025 15:09:54 GMT</pubDate></item><item><title><![CDATA[Sqlite]]></title><description><![CDATA[ 
  <br>한 개의 파일에 데이터베이스를 저장하는 구조다.<br>
 네트워크를 통해 접속하지 않는다.<br>
 어쩌면 다른 데이터베이스 보다 빠를 수도 있다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\SqlLite\Sqlite.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/SqlLite/Sqlite.md</guid><pubDate>Fri, 20 Jun 2025 08:31:57 GMT</pubDate></item><item><title><![CDATA[개념]]></title><description><![CDATA[ 
