@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 06 Jul 2025 23:35:26 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 06 Jul 2025 23:35:00 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 07 Jul 2025 15:07:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 07 Jul 2025 15:07:23 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
  <br><br>오류를 수정하는 것<br>
 정확히는 의도와 다르게 작동하는 것을 의도와 맞게 작동되게 만드는 것<br>
 실제로 옛날에 컴퓨터에 벌레가 들어가 오류를 발생시킨 것을 벌레를 빼면서 오류를 수정한 적 있는데<br>
@@ -24,10 +24,23 @@ ctrl + win + T]]></description><link>기타\윈도우 단축키.html</link><guid
 <a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>과 <a data-href="CSS" href="컴퓨터 공학\인터넷\web\front end\CSS\CSS.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a>의 표준을 정하는 W3C<br>
 <a data-href="Javascript" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Javascript\Javascript.html" class="internal-link" target="_self" rel="noopener nofollow">Javascript</a>를 관장하는 ECMA<br>
 이를 웹 표준이라고 부름<br><br>웹 표준을 따르지 않음<br>
-성능이 안좋음<br>어느 사용자는 익스플로러를 쓰기 때문에 익스플로러도 지원해야함<br>각 기능이 어느 버전까지 지원하는지 확인을 해야함<br><br>다른 웹 브라우저에서 돌아가는지 확인하는데 사용한다.]]></description><link>기타\익스플로러를 싫어하는 이유.html</link><guid isPermaLink="false">기타/익스플로러를 싫어하는 이유.md</guid><pubDate>Tue, 17 Jun 2025 15:09:51 GMT</pubDate></item><item><title><![CDATA[재귀함수]]></title><description><![CDATA[ 
- <br>함수에서 스스로를 호출하는 방법으로 동적 계획법 알고리즘에 사용된다.]]></description><link>컴퓨터 공학\수학\이산수학\재귀함수.html</link><guid isPermaLink="false">컴퓨터 공학/수학/이산수학/재귀함수.md</guid><pubDate>Thu, 03 Jul 2025 07:32:59 GMT</pubDate></item><item><title><![CDATA[선형대수학]]></title><description><![CDATA[ 
+성능이 안좋음<br>어느 사용자는 익스플로러를 쓰기 때문에 익스플로러도 지원해야함<br>각 기능이 어느 버전까지 지원하는지 확인을 해야함<br><br>다른 웹 브라우저에서 돌아가는지 확인하는데 사용한다.]]></description><link>기타\익스플로러를 싫어하는 이유.html</link><guid isPermaLink="false">기타/익스플로러를 싫어하는 이유.md</guid><pubDate>Tue, 17 Jun 2025 15:09:51 GMT</pubDate></item><item><title><![CDATA[SQL injection]]></title><description><![CDATA[ 
+ <br>웹의 취약점을 사용해 sql을 주입시켜 원하는 데이터를 가져오거나 서버를 고장내는 해킹 수법이다.]]></description><link>컴퓨터 공학\보안\해킹\SQL injection.html</link><guid isPermaLink="false">컴퓨터 공학/보안/해킹/SQL injection.md</guid><pubDate>Mon, 07 Jul 2025 08:47:14 GMT</pubDate></item><item><title><![CDATA[XSS 공격]]></title><description><![CDATA[ 
+ <br>제목, 작성자, 이름, 내용 같은 곳에 script를 넣어서<br>
+api 키를 탈취하는 방식이다.<br>글을 다양하게 표현하게 만들고 싶어서 XSS 방어를 해제하기도 하는데<br>
+이 경우 스크립트가 같이 들어가면 문제가 발생한다.]]></description><link>컴퓨터 공학\보안\해킹\XSS 공격.html</link><guid isPermaLink="false">컴퓨터 공학/보안/해킹/XSS 공격.md</guid><pubDate>Mon, 07 Jul 2025 03:42:52 GMT</pubDate></item><item><title><![CDATA[보안]]></title><description><![CDATA[ 
+ <br>보안은 간단하게 말하면<br>
+내 개인정보를 남이 보지 않게 막는 것이고<br>내가 누군가에게 전송하고자 하는 정보를 제 3자가 확인을 못하게 해야 한다.<br>
+확인을 못하더라도 누가 중간에 수정을 해서도 안된다.<br>이것을 지키기 위해 <a data-href="암호화" href="컴퓨터 공학\프로그래밍\알고리즘\암호화\암호화.html" class="internal-link" target="_self" rel="noopener nofollow">암호화</a>를 사용한다.]]></description><link>컴퓨터 공학\보안\보안.html</link><guid isPermaLink="false">컴퓨터 공학/보안/보안.md</guid><pubDate>Mon, 07 Jul 2025 08:46:18 GMT</pubDate></item><item><title><![CDATA[API 키 저장]]></title><description><![CDATA[ 
+ <br>local storage에 저장할 수 있다.<br>
+하지만 이 경우 <a data-href="XSS 공격" href="컴퓨터 공학\보안\해킹\XSS 공격.html" class="internal-link" target="_self" rel="noopener nofollow">XSS 공격</a>에 의해 API 키가 해커에게 넘어갈 수 있다.<br><a data-href="쿠키" href="컴퓨터 공학\인터넷\web\back end\쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>를 통해 이 문제를 해결 할 수 있다.<br>안드로이드, iOS앱에서는 XSS로 부터 안전해서 authorization header에 넣어서 전송해도 되고<br>
+웹 브라우저에서는 <a data-href="쿠키" href="컴퓨터 공학\인터넷\web\back end\쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>를 통해 전송하는 방식이 낫다.]]></description><link>컴퓨터 공학\보안\API 키 저장.html</link><guid isPermaLink="false">컴퓨터 공학/보안/API 키 저장.md</guid><pubDate>Mon, 07 Jul 2025 06:53:43 GMT</pubDate></item><item><title><![CDATA[꼬리 재귀]]></title><description><![CDATA[ 
+ <br>함수에서 스스로를 호출하는 방법으로 동적 계획법 알고리즘에 사용된다.<br>현실에서는 무한히 재귀함수로 돌릴 수 없다.<br>
+왜냐하면 함수를 호출 할 때마다 스택 메모리를 할당하기 때문이다.<br>
+그래서 재귀함수는 항상 탈출 조건을 명시해야한다.<br>]]></description><link>컴퓨터 공학\수학\이산수학\재귀함수.html</link><guid isPermaLink="false">컴퓨터 공학/수학/이산수학/재귀함수.md</guid><pubDate>Mon, 07 Jul 2025 08:52:26 GMT</pubDate></item><item><title><![CDATA[선형대수학]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\수학\선형대수학.html</link><guid isPermaLink="false">컴퓨터 공학/수학/선형대수학.md</guid><pubDate>Mon, 30 Jun 2025 07:47:43 GMT</pubDate></item><item><title><![CDATA[카오스 이론]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\수학\카오스 이론.html</link><guid isPermaLink="false">컴퓨터 공학/수학/카오스 이론.md</guid><pubDate>Mon, 30 Jun 2025 07:47:22 GMT</pubDate></item><item><title><![CDATA[맥북에서 Docker 설치시 주의 사항]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\수학\카오스 이론.html</link><guid isPermaLink="false">컴퓨터 공학/수학/카오스 이론.md</guid><pubDate>Mon, 30 Jun 2025 07:47:22 GMT</pubDate></item><item><title><![CDATA[확률과 통계]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\수학\확률과 통계.html</link><guid isPermaLink="false">컴퓨터 공학/수학/확률과 통계.md</guid><pubDate>Mon, 07 Jul 2025 06:01:07 GMT</pubDate></item><item><title><![CDATA[맥북에서 Docker 설치시 주의 사항]]></title><description><![CDATA[ 
  <br>맥북은 <a data-href="ARM" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\ARM.html" class="internal-link" target="_self" rel="noopener nofollow">ARM</a>아키텍쳐를 가지고 있기에 docker 설치시에 ARM 버전으로 설치해야한다.<br>
 기본적으로는 <a data-href="x86" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\x86.html" class="internal-link" target="_self" rel="noopener nofollow">x86</a>아키텍쳐로 설치하기 때문에 에뮬레이터를 통해 x86으로 만들어진 명령어를 실행한다.]]></description><link>컴퓨터 공학\운영체제\가상화\docker\맥북에서 Docker 설치시 주의 사항.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/가상화/docker/맥북에서 Docker 설치시 주의 사항.md</guid><pubDate>Sun, 06 Jul 2025 12:41:42 GMT</pubDate></item><item><title><![CDATA[Docker]]></title><description><![CDATA[ 
  <br>개발된 환경을 이미지로 저장하고<br>
@@ -121,11 +134,16 @@ directory name을 비우면 기본적으로 .이 들어간다.<br>
 directory name을 비우면 기본적으로 ~가 들어간다.<br><br>화면에 출력할 때 사용한다.<br>
 보통 파일에 작성할 때 자주 사용하는데<br>
 예시로는<br>echo "Hello" &gt; file.txt 2&gt; error.txt
-<br>이런식으로 작성한다 &gt; 이거를 사용하는 걸 redirection이라고 하는데 출력 값을 다른 곳으로 넘겨주는 것이다.<br>2&gt; 를 통해 오류 값만을 다른 곳으로 보낼 수 있다. 주로 보내는 곳은 /dev/null로 휴지통에 버린다.<br>&gt;&gt;를 통해 값을 추가적으로 넣을 수 있다.<br><br>환경 변수를 의미한다. Windows에서는 명령어로 하는건 잘 모르지만 GUI로 하는 방법이 있다.<br>set $PATH:추가적인 경로
-<br>를 통해 환경변수에 추가하고 <br><br>화면의 텍스트를 지운다.<br><br>현재 폴더의 위치를 알려준다.<br><br>명령어의 매뉴얼을 보여준다.<br><br>폴더를 만든다.<br><br><a data-href="Vim" href="컴퓨터 공학\프로그램\Vim.html" class="internal-link" target="_self" rel="noopener nofollow">Vim</a>을 사용할 때 사용한다.<br><br>파일을 복사한다.<br><br>만약 폴더 안의 모든 것을 복사하고 싶을 때 사용한다.<br><br>파일을 이동한다.<br><br>파일을 삭제할 때 사용한다.<br><br>인터넷에서 파일을 다운 받을 때 사용한다.<br><br>관리자의 권한으로 실행할 때 사용한다.<br>
-sudoer 파일에 적혀있는 유저 만 사용가능하다.]]></description><link>컴퓨터 공학\운영체제\종류\리눅스\리눅스 명령어.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/리눅스/리눅스 명령어.md</guid><pubDate>Tue, 01 Jul 2025 00:39:42 GMT</pubDate></item><item><title><![CDATA[만들어진 이유]]></title><description><![CDATA[ 
+<br>이런식으로 작성한다 &gt; 이거를 사용하는 걸 redirection이라고 하는데 출력 값을 다른 곳으로 넘겨주는 것이다.<br>2&gt; 를 통해 오류 값만을 다른 곳으로 보낼 수 있다. 주로 보내는 곳은 /dev/null로 휴지통에 버린다.<br>&gt;&gt;를 통해 값을 기존 값 이후에 추가적으로 넣을 수 있다.<br><br>환경 변수를 의미한다. Windows에서는 명령어로 하는건 잘 모르지만 GUI로 하는 방법이 있다.<br>set $PATH:추가적인 경로
+<br>를 통해 환경변수에 추가하고 <br><br>화면의 텍스트를 지운다.<br><br>현재 폴더의 위치를 알려준다.<br><br>명령어의 매뉴얼을 보여준다.<br><br>폴더를 만든다.<br><br><a data-href="Vim" href="컴퓨터 공학\프로그램\Vim.html" class="internal-link" target="_self" rel="noopener nofollow">Vim</a>을 사용할 때 사용한다.<br><br>파일을 복사한다.<br><br>만약 폴더 안의 모든 것을 복사하고 싶을 때 사용한다.<br><br>파일을 이동한다.<br><br>파일을 삭제할 때 사용한다.<br><br>폴더 안의 모든 파일을 삭제할 떄 사용한다.<br><br>삭제할 때 경고를 하고 삭제하게 한다.<br><br>경고 없이 삭제한다.<br><br>sudo rm -rf /
+<br>이 명령어를 사용하지 말아야 한다.<br>
+리눅스는 스스로를 삭제하는 것도 허용시킨다.<br><br>인터넷에서 파일을 다운 받을 때 사용한다.<br><br>관리자의 권한으로 실행할 때 사용한다.<br>
+sudoer 파일에 적혀있는 유저만 사용가능하다.]]></description><link>컴퓨터 공학\운영체제\종류\리눅스\리눅스 명령어.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/리눅스/리눅스 명령어.md</guid><pubDate>Mon, 07 Jul 2025 08:45:25 GMT</pubDate></item><item><title><![CDATA[만들어진 이유]]></title><description><![CDATA[ 
  <br><br>운영체제와 소통하기 위함<br>]]></description><link>컴퓨터 공학\운영체제\종류\리눅스\리눅스 쉘.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/리눅스/리눅스 쉘.md</guid><pubDate>Mon, 23 Jun 2025 08:26:02 GMT</pubDate></item><item><title><![CDATA[윈도우]]></title><description><![CDATA[ 
- <br><a data-href="소켓 통신" href="컴퓨터 공학\인터넷\네트워크\소켓통신\소켓 통신.html" class="internal-link" target="_self" rel="noopener nofollow">소켓 통신</a>의 경우 IOCP(I/O Completion Port)방식을 사용한다.]]></description><link>컴퓨터 공학\운영체제\종류\윈도우\윈도우.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/윈도우/윈도우.md</guid><pubDate>Tue, 01 Jul 2025 07:34:23 GMT</pubDate></item><item><title><![CDATA[Os X]]></title><description><![CDATA[ 
+ <br><a data-href="소켓 통신" href="컴퓨터 공학\인터넷\네트워크\소켓통신\소켓 통신.html" class="internal-link" target="_self" rel="noopener nofollow">소켓 통신</a>의 경우 IOCP(I/O Completion Port)방식을 사용한다.]]></description><link>컴퓨터 공학\운영체제\종류\윈도우\윈도우.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/윈도우/윈도우.md</guid><pubDate>Tue, 01 Jul 2025 07:34:23 GMT</pubDate></item><item><title><![CDATA[WSL2]]></title><description><![CDATA[ 
+ <br>윈도우에서 리눅스를 돌릴 수 있게 하는 것이다.<br>
+윈도우와 환경이 구분되지 않고 /mnt 폴더를 통해 윈도우 파일에 접근이 가능하다.<br>
+설치하는 과정이 좀 복잡하다.]]></description><link>컴퓨터 공학\운영체제\종류\윈도우\WSL2.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/윈도우/WSL2.md</guid><pubDate>Mon, 07 Jul 2025 08:42:26 GMT</pubDate></item><item><title><![CDATA[Os X]]></title><description><![CDATA[ 
  <br>MacOS라고도 불린다.<br>
 유로 OS 중 하나다.<br>
 Epoll이 불가능하다.]]></description><link>컴퓨터 공학\운영체제\종류\유닉스\Os X.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/종류/유닉스/Os X.md</guid><pubDate>Tue, 01 Jul 2025 00:45:13 GMT</pubDate></item><item><title><![CDATA[GUI]]></title><description><![CDATA[ 
@@ -141,7 +159,9 @@ GUI 위에 CLI를 만든 것이기 때문]]></description><link>컴퓨터 공학
 사용자가 직접 통제 할 수 없다.<br>보통 Low한 언어를 사용한다.<br>
 <a data-href="C" href="컴퓨터 공학\프로그래밍\언어\C 계열\C\C.html" class="internal-link" target="_self" rel="noopener nofollow">C</a>나 <a data-href="어셈블리어" href="컴퓨터 공학\프로그래밍\언어\어셈블리\어셈블리어.html" class="internal-link" target="_self" rel="noopener nofollow">어셈블리어</a>를 사용한다.]]></description><link>컴퓨터 공학\운영체제\커널\커널.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/커널/커널.md</guid><pubDate>Tue, 01 Jul 2025 07:33:58 GMT</pubDate></item><item><title><![CDATA[뮤텍스]]></title><description><![CDATA[ 
  <br>한 번에 하나의 프로세스만 자원에 접근하도록 보장하는데 사용<br>
-뮤텍스를 획득한 프로세스만 잠금 해제 가능하다.]]></description><link>컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\뮤텍스.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/스레드/스레드 동기화/뮤텍스.md</guid><pubDate>Thu, 03 Jul 2025 07:41:53 GMT</pubDate></item><item><title><![CDATA[세마포어]]></title><description><![CDATA[ 
+뮤텍스를 획득한 프로세스만 잠금 해제 가능하다.<br>가장 먼저 자원에 접근한 프로세스만 접근이 가능하고<br>
+나머지 프로세스는 대기한다.<br>
+그래서 자원에 접근하려 한 프로세스 순서대로 접근한다.]]></description><link>컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\뮤텍스.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/스레드/스레드 동기화/뮤텍스.md</guid><pubDate>Mon, 07 Jul 2025 02:59:29 GMT</pubDate></item><item><title><![CDATA[세마포어]]></title><description><![CDATA[ 
  <br>사용 가능한 자원의 수를 의마한다.<br>
 특수한 연산들만 접근 할 수 있다.<br>P연산과 V연산이 있다.<br>
 이 연산은 원자적으로 동작한다.<br>세마포어의 획득과 반환이 독립적이다.<br><br>S의 값이 0을 초과하면 들여보내주고 0 이하면 대기한다.<br><br>대기중인 프로세스가 존재하면 진행하고 아니면 S의 값을 1 추가한다.<br><br>자원이 있는지 계속 확인한다.<br><br>block을 통해 대기시키고 Wakeup을 통해 진행시킨다.<br><br><br>변수가 0과 1의 값만을 가질 수 있는 세마포어<br><br>음이 아닌 모든 정수가 될 수 있는 세마포어<br>
@@ -162,7 +182,9 @@ B스레드가 레지스터의 값(1)을 a에 넣습니다.<br>
 따라서 a에는 1의 값이 저장됩니다.<br>
 A스레드와 B스레드가 돌아갔지만 A 스레드의 연산값이 무시되었습니다.
 <br><br>공유하는 자원을 사용하여 다른 스레드와 동시에 사용할 경우 문제가 발생할 수 있는 부분을 말한다.<br><a data-href="원자성 어셈블리 코드" href="컴퓨터 공학\컴퓨터 구조\원자성 어셈블리 코드.html" class="internal-link" target="_self" rel="noopener nofollow">원자성 어셈블리 코드</a>를 통해 모든 스레드 중 한 스레드만 임계구역에 들어올 수 있도록 막는다.<br><br>임계 구역 내에는 한 번에 하나의 프로세스만 있어야 한다. 이를 위해<br>
-<a data-href="뮤텍스" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\뮤텍스.html" class="internal-link" target="_self" rel="noopener nofollow">뮤텍스</a>, <a data-href="스핀락" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\스핀락.html" class="internal-link" target="_self" rel="noopener nofollow">스핀락</a>, <a data-href="세마포어" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\세마포어.html" class="internal-link" target="_self" rel="noopener nofollow">세마포어</a>가 존재한다.<br><br>]]></description><link>컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\스레드 동기화.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/스레드/스레드 동기화/스레드 동기화.md</guid><pubDate>Thu, 03 Jul 2025 07:34:26 GMT</pubDate></item><item><title><![CDATA[특징]]></title><description><![CDATA[ 
+<a data-href="뮤텍스" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\뮤텍스.html" class="internal-link" target="_self" rel="noopener nofollow">뮤텍스</a>, <a data-href="스핀락" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\스핀락.html" class="internal-link" target="_self" rel="noopener nofollow">스핀락</a>, <a data-href="세마포어" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\세마포어.html" class="internal-link" target="_self" rel="noopener nofollow">세마포어</a>가 존재한다.<br><br>]]></description><link>컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\스레드 동기화.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/스레드/스레드 동기화/스레드 동기화.md</guid><pubDate>Thu, 03 Jul 2025 07:34:26 GMT</pubDate></item><item><title><![CDATA[스핀락]]></title><description><![CDATA[ 
+ <br>한 번에 하나의 프로세스만 자원에 접근하도록 보장하는데 사용한다.<br>가장 먼저 자원에 접근하려한 프로세스만 접근이 가능하고<br>
+나머지 프로세스들은 실패하여 다시 접근 시도를 해야한다.<br>그래서 기아 현상이 발생할 가능성이 있다.]]></description><link>컴퓨터 공학\운영체제\프로세스\스레드\스레드 동기화\스핀락.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/스레드/스레드 동기화/스핀락.md</guid><pubDate>Mon, 07 Jul 2025 03:02:11 GMT</pubDate></item><item><title><![CDATA[특징]]></title><description><![CDATA[ 
  <br>스레드간 자원이 공유된다.<br>
 공유되는 자원은 코드, 데이터, 힙 영역이다.<br>
 CPU 코어 여러 개가 동시에 작업할 수 있는데 이 병렬성을 Parallelism<br>
@@ -198,7 +220,8 @@ PCB(Process Control Block)이 프로세스 생성시 함께 만들어짐<br><br>
 IPC를 통한 통신<br>
 자원 소모적, 개별 메모리 차지<br>
 Context Switching 비용이 큼<br>
-동기화 작업이 필요하지 않음]]></description><link>컴퓨터 공학\운영체제\프로세스\프로세스.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/프로세스.md</guid><pubDate>Tue, 24 Jun 2025 08:32:12 GMT</pubDate></item><item><title><![CDATA[<a data-href="프로세스" href="컴퓨터 공학/운영체제/프로세스/프로세스.html" class="internal-link" target="_self" rel="noopener nofollow">프로세스</a>]]></title><description><![CDATA[ 
+동기화 작업이 필요하지 않음]]></description><link>컴퓨터 공학\운영체제\프로세스\프로세스.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/프로세스.md</guid><pubDate>Tue, 24 Jun 2025 08:32:12 GMT</pubDate></item><item><title><![CDATA[프로세스 관리]]></title><description><![CDATA[ 
+ <br>부모 프로세스가 자식 프로세스를 관리한다.]]></description><link>컴퓨터 공학\운영체제\프로세스\프로세스 관리.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/프로세스 관리.md</guid><pubDate>Mon, 07 Jul 2025 03:03:04 GMT</pubDate></item><item><title><![CDATA[<a data-href="프로세스" href="컴퓨터 공학/운영체제/프로세스/프로세스.html" class="internal-link" target="_self" rel="noopener nofollow">프로세스</a>]]></title><description><![CDATA[ 
  <br><br><br><br>위 두 개는 멀티 코어가 있어야만 실행되는 게 아니라 싱글 코어로도 가능하다.<br>
 다만 멀티 프로세스는 동시성이고 멀티 스레드는 병렬성이 가능한 것일 뿐이다.<br><br>리눅스 커널에서는 <a data-href="프로세스" href="컴퓨터 공학\운영체제\프로세스\프로세스.html" class="internal-link" target="_self" rel="noopener nofollow">프로세스</a>와 <a data-href="스레드" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드.html" class="internal-link" target="_self" rel="noopener nofollow">스레드</a>를 동일하게 본다.<br>
 사용자 <a data-href="스레드" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드.html" class="internal-link" target="_self" rel="noopener nofollow">스레드</a>당 커널 <a data-href="스레드" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드.html" class="internal-link" target="_self" rel="noopener nofollow">스레드</a>가 하나가 매칭이 되어있다.<br>
@@ -206,7 +229,17 @@ Context Switching 비용이 큼<br>
 그래서 light weight process라고 부름<br>
 한 <a data-href="프로세스" href="컴퓨터 공학\운영체제\프로세스\프로세스.html" class="internal-link" target="_self" rel="noopener nofollow">프로세스</a>에서 생성된 <a data-href="스레드" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드.html" class="internal-link" target="_self" rel="noopener nofollow">스레드</a>는 모두 같은 pid를 가진다.<br>
 사용자 레벨에서 보면 <a data-href="스레드" href="컴퓨터 공학\운영체제\프로세스\스레드\스레드.html" class="internal-link" target="_self" rel="noopener nofollow">스레드</a> 그룹 아이디가 pid로 보이고<br>
-커널 입장에서는 tid가 pid로 인식된다.]]></description><link>컴퓨터 공학\운영체제\프로세스\프로세스와 스레드.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/프로세스와 스레드.md</guid><pubDate>Thu, 19 Jun 2025 08:36:45 GMT</pubDate></item><item><title><![CDATA[프로그램]]></title><description><![CDATA[ 
+커널 입장에서는 tid가 pid로 인식된다.]]></description><link>컴퓨터 공학\운영체제\프로세스\프로세스와 스레드.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로세스/프로세스와 스레드.md</guid><pubDate>Thu, 19 Jun 2025 08:36:45 GMT</pubDate></item><item><title><![CDATA[출처]]></title><description><![CDATA[ 
+ <br>아직 공부 완전히 다 하지는 못했음 글 작성은 보류함<br><br><a data-tooltip-position="top" aria-label="https://operating-system-in-1000-lines.vercel.app/ko/" rel="noopener nofollow" class="external-link" href="https://operating-system-in-1000-lines.vercel.app/ko/" target="_blank">링크</a>]]></description><link>컴퓨터 공학\운영체제\1000줄 짜리 OS를 만들어보자.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/1000줄 짜리 OS를 만들어보자.md</guid><pubDate>Mon, 07 Jul 2025 08:45:58 GMT</pubDate></item><item><title><![CDATA[바이오스]]></title><description><![CDATA[ 
+ <br>운영체제를 메인 메모리에 적재하는 과정<br>부트 로더는 부트스트랩 로드를 줄인 말로 하드디스크와 같은 보조 기억장치에 저장된 운영체제를 메인 메모리에 적재하는 ROM에 고정시킨 소규모 프로그램이다.<br><br>바이오스는 하드웨어 제조사가 구현해 놓은 일종의 프로그램이다.<br>
+바이오스가 운영체제를 인식해 메인 메모리에 적재한다.<br><br>MBR(Master Boot Record)<br>
+하드디스크의 첫 번째 섹터를 의미한다.<br>
+MBR은 전체 512바이트의 크기를 가지고 있다.<br>
+MBR에는 부트 로더의 위치가 저장되어 있다.<br>
+부트로더에 의해 MBR의 512바이트가 메모리 0x07C0로 불려진다.<br><br>MBR을 통해 부트 로더의 위치를 메모리에 적재하면 운영체제를 선택할 수 있는 화면이 표시된다.<br>
+부트로더를 실행하기 위해서는 메모리 0x07C0을 시작점으로 해야한다.<br>
+이후 부트로더에 의해 커널이 로드되고, 커널이 로드되면 제어권은 OS로 넘어간다.<br><br>바이오스 단계에서 MBR이 부트로더를 찾아 메모리에 로드한다.<br>
+부트로더는 여러 운영체제 중에서 부팅할 운영체제를 선택할 수 있도록 메뉴를 제공한다.<br><br>교수님 PDF]]></description><link>컴퓨터 공학\운영체제\부팅.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/부팅.md</guid><pubDate>Mon, 07 Jul 2025 08:30:57 GMT</pubDate></item><item><title><![CDATA[프로그램]]></title><description><![CDATA[ 
  <br>컴퓨터가 실행할 수 있는 명령어들의 집합]]></description><link>컴퓨터 공학\운영체제\프로그램.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/프로그램.md</guid><pubDate>Tue, 24 Jun 2025 08:02:35 GMT</pubDate></item><item><title><![CDATA[IO 작업]]></title><description><![CDATA[ 
  <br>IO는 Input Output을 말한다.<br>파일을 읽고 쓰거나<br>
 <a data-href="네트워크" href="컴퓨터 공학\인터넷\네트워크\네트워크.html" class="internal-link" target="_self" rel="noopener nofollow">네트워크</a>의 어딘가와 데이터를 주고 받는 것이다.<br>
@@ -335,7 +368,7 @@ display:inline 처리를 한다.<br>
  <br>JavaScript Object Notation의 약자다.]]></description><link>컴퓨터 공학\인터넷\web\데이터양식\JSON.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/데이터양식/JSON.md</guid><pubDate>Tue, 01 Jul 2025 00:49:16 GMT</pubDate></item><item><title><![CDATA[XML]]></title><description><![CDATA[ 
  <br><a data-href="Markup Language" href="컴퓨터 공학\프로그래밍\언어\Mark 언어\Markup Language\Markup Language.html" class="internal-link" target="_self" rel="noopener nofollow">Markup Language</a>이다.<br>
 HTML과 비슷하지만 HTML보다 더 유연하다.]]></description><link>컴퓨터 공학\인터넷\web\데이터양식\XML.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/데이터양식/XML.md</guid><pubDate>Tue, 01 Jul 2025 02:47:54 GMT</pubDate></item><item><title><![CDATA[API]]></title><description><![CDATA[ 
- <br>소프트웨어 애플리케이션들이 서로 통신하고 상호작용할 수 있도록 하는 규칙 또는 <a data-href="프로토콜" href="컴퓨터 공학\인터넷\네트워크\프로토콜.html" class="internal-link" target="_self" rel="noopener nofollow">프로토콜</a>의 집합을 말한다.]]></description><link>컴퓨터 공학\인터넷\web\back end\서버\API\API.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/서버/API/API.md</guid><pubDate>Tue, 01 Jul 2025 08:18:09 GMT</pubDate></item><item><title><![CDATA[CORS]]></title><description><![CDATA[ 
+ <br>소프트웨어 애플리케이션들이 서로 통신하고 상호작용할 수 있도록 하는 규칙 또는 <a data-href="프로토콜" href="컴퓨터 공학\인터넷\네트워크\프로토콜.html" class="internal-link" target="_self" rel="noopener nofollow">프로토콜</a>의 집합을 말한다.]]></description><link>컴퓨터 공학\인터넷\web\back end\서버\API\API.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/서버/API/API.md</guid><pubDate>Mon, 07 Jul 2025 02:23:44 GMT</pubDate></item><item><title><![CDATA[CORS]]></title><description><![CDATA[ 
  <br>브라우저에서 HTML을 가져온 서버와 다른 서버에서 API 요청을 하면<br>
 문제가 있다고 생각하여 거부한다.<br>
 그래서 API 서버에서 허용한다고 설정을 해줘야 한다.]]></description><link>컴퓨터 공학\인터넷\web\back end\서버\API\CORS.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/서버/API/CORS.md</guid><pubDate>Tue, 01 Jul 2025 01:18:30 GMT</pubDate></item><item><title><![CDATA[OPEN API]]></title><description><![CDATA[ 
@@ -875,10 +908,12 @@ WAS라고 부르기도 함<br>
  <br>웹사이트에서 어떤 일을 했는지 저장하는 데이터를 말한다.<br>웹사이트에 접속하면 서버가 쿠키를 만들어 브라우저에 저장시킨다.<br>
 브라우저는 쿠키를 가지고 있다 서버가 요청하면 쿠키를 전송한다.<br>
 서버는 쿠키를 확인하고 해당 쿠키에 맞는 정보를 전송하고 브라우저에 반영된다.<br>
-예를들어 언어 설정이 있다.<br>브라우저에 쿠키가 저장되기에 민감한 정보는 저장하지 않는다.<br><br><br>쿠키를 식별하는데 사용되기 때문에 중복된 키는 존재하지 않는다.<br><br>알파벳과 숫자로 이루어져있으며 대부분 4096바이트로 제한되어있다.<br><br>쿠키가 어떤 서버로 전송되어야 하는지 지정하는 구성요소다.<br><br>명시한 경로와 그 하위 경로에만 쿠키가 전송된다.<br><br>명시된 만료일이 지나면 쿠키는 삭제된다.<br>
+예를들어 언어 설정이 있다.<br>브라우저에 쿠키가 저장되기에 민감한 정보는 저장하지 않는다.<br>쿠키의 수명을 0으로 해두고 다시 저장해 덮어써서 쿠키를 없앨 수 있다.<br><br><br>쿠키를 식별하는데 사용되기 때문에 중복된 키는 존재하지 않는다.<br><br>알파벳과 숫자로 이루어져있으며 대부분 4096바이트로 제한되어있다.<br><br>쿠키가 어떤 서버로 전송되어야 하는지 지정하는 구성요소다.<br><br>명시한 경로와 그 하위 경로에만 쿠키가 전송된다.<br><br>명시된 만료일이 지나면 쿠키는 삭제된다.<br>
 지정되지 않았으면 브라우저가 종료될 때 사라지고 이런 쿠키를 세션 쿠키라고 한다.<br><br>사용자가 이용중인 웹사이트 소유자가 직접 생성<br><br>제 3자가 발행한 쿠키<br><br>사이트의 모든 기능을 사용하려면 필요한 쿠키<br><br>사용자의 웹사이트 이용 정보를 수집해<br>
 서비스를 효율적으로 개선하는데 사용<br><br>사용자의 언어, 지역에 대한 데이터를 담아<br>
-사용자에게 최적화된 서비스를 제공하는데 사용한다.<br><br>사용자에게 광고 콘텐츠를 제공하는데 사용한다.]]></description><link>컴퓨터 공학\인터넷\web\back end\쿠키.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/쿠키.md</guid><pubDate>Mon, 30 Jun 2025 06:15:24 GMT</pubDate></item><item><title><![CDATA[<a data-href="쿠키" href="컴퓨터 공학/인터넷/web/back end/쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>]]></title><description><![CDATA[ 
+사용자에게 최적화된 서비스를 제공하는데 사용한다.<br><br>사용자에게 광고 콘텐츠를 제공하는데 사용한다.<br><br>자바스크립트로 접근이 불가능한 쿠키다.<br>
+따라서 악성 자바스크립트 코드가 쿠키를 훔쳐가지 못한다.<br>
+브라우저는 자동으로 이 쿠키를 서버로 전송한다.]]></description><link>컴퓨터 공학\인터넷\web\back end\쿠키.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/쿠키.md</guid><pubDate>Mon, 07 Jul 2025 06:53:48 GMT</pubDate></item><item><title><![CDATA[<a data-href="쿠키" href="컴퓨터 공학/인터넷/web/back end/쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>]]></title><description><![CDATA[ 
  <br><br>사이트를 방문하고 이용할 때 브라우저에 저장하는 데이터<br>
 마음대로 변경하면 안되는 값들은 저장하지 않는다.<br><br>접속하면 기한이 짧은 임시 키를 줌<br>
 키를 쿠키에 저장해서 쿠키를 서버에 전송하면 사용자를 인식함<br><br>가져오는데 비용이 드는 정보를 한번 가져오면 저장해두는 것]]></description><link>컴퓨터 공학\인터넷\web\back end\쿠키, 세션, 캐시.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/web/back end/쿠키, 세션, 캐시.md</guid><pubDate>Mon, 30 Jun 2025 06:15:35 GMT</pubDate></item><item><title><![CDATA[Back-End]]></title><description><![CDATA[ 
@@ -997,8 +1032,12 @@ Chorme, Internet Explorer, Microsoft Edge, Firfox, Safari, Whale<br><br>World Wi
  <br><a data-href="리눅스" href="컴퓨터 공학\운영체제\종류\리눅스\리눅스.html" class="internal-link" target="_self" rel="noopener nofollow">리눅스</a>를 만들었다.<br>
 <a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>을 만들었다.]]></description><link>컴퓨터 공학\중요한 인물\리누스 토발즈.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/리누스 토발즈.md</guid><pubDate>Thu, 03 Jul 2025 08:17:06 GMT</pubDate></item><item><title><![CDATA[빌 게이츠]]></title><description><![CDATA[ 
  <br>Microsoft의 창업주다.]]></description><link>컴퓨터 공학\중요한 인물\빌 게이츠.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/빌 게이츠.md</guid><pubDate>Thu, 03 Jul 2025 08:16:49 GMT</pubDate></item><item><title><![CDATA[튜링 머신]]></title><description><![CDATA[ 
- <br>컴퓨터과학의 아버지다.<br><br>앨런 튜링이 1936년에 제시한 개념으로 계산하는 기계의 일반적인 개념을 설명하기 위한 가상의 기계며 오토마타의 일종이다.]]></description><link>컴퓨터 공학\중요한 인물\앨런 튜링.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/앨런 튜링.md</guid><pubDate>Thu, 03 Jul 2025 08:25:09 GMT</pubDate></item><item><title><![CDATA[팀 버너스리]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\중요한 인물\팀 버너스리.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/팀 버너스리.md</guid><pubDate>Thu, 03 Jul 2025 08:15:44 GMT</pubDate></item><item><title><![CDATA[폰 노이만 구조]]></title><description><![CDATA[ 
+ <br>컴퓨터과학의 아버지다.<br><br>앨런 튜링이 1936년에 제시한 개념으로 계산하는 기계의 일반적인 개념을 설명하기 위한 가상의 기계며 오토마타의 일종이다.]]></description><link>컴퓨터 공학\중요한 인물\앨런 튜링.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/앨런 튜링.md</guid><pubDate>Thu, 03 Jul 2025 08:25:09 GMT</pubDate></item><item><title><![CDATA[출처]]></title><description><![CDATA[ 
+ <br>세계의 망을 하나로 묶는 거대한 인트라넷인 www를 제안했다.=<br>
+<a data-href="HTTP" href="컴퓨터 공학\인터넷\web\back end\서버\HTTP\HTTP.html" class="internal-link" target="_self" rel="noopener nofollow">HTTP</a>를 만들었다.<br>
+URL도 고안했다.<br>
+<a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>을 만들었다.<br>http 링크를 만들 때 http:// 처럼 슬래시를 두 개나 붙이는데<br>
+그게 멋있어서 그렇게 만들었다고 한다. <a data-tooltip-position="top" aria-label="http://news.bbc.co.uk/2/hi/technology/8306631.stm" rel="noopener nofollow" class="external-link" href="http://news.bbc.co.uk/2/hi/technology/8306631.stm" target="_blank">출처</a><br><br><a data-tooltip-position="top" aria-label="https://namu.wiki/w/%ED%8C%80%20%EB%B2%84%EB%84%88%EC%8A%A4%EB%A6%AC" rel="noopener nofollow" class="external-link" href="https://namu.wiki/w/%ED%8C%80%20%EB%B2%84%EB%84%88%EC%8A%A4%EB%A6%AC" target="_blank">링크</a>]]></description><link>컴퓨터 공학\중요한 인물\팀 버너스리.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/팀 버너스리.md</guid><pubDate>Mon, 07 Jul 2025 08:40:40 GMT</pubDate></item><item><title><![CDATA[폰 노이만 구조]]></title><description><![CDATA[ 
  <br>폰 노이만 구조를 만들었다.<br><br>중앙처리장치, 메모리, 프로그램으로<br>
 CPU와 메모리를 분리시켜<br>
 실행 코드와 데이터를 메모리에 넣고 실행하는 구조다.<br>그리고 이 구조는 거의 모든 컴퓨터가 따르고 있는 구조다.]]></description><link>컴퓨터 공학\중요한 인물\폰 노이만.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/폰 노이만.md</guid><pubDate>Thu, 03 Jul 2025 08:23:45 GMT</pubDate></item><item><title><![CDATA[논리 회로 구현]]></title><description><![CDATA[ 
@@ -1427,7 +1466,14 @@ Nvidia와 비교가능할 정도지만<br>
 어느 그래픽 카드를 사용하던간에 게임에서 지원하면 사용할 수 있고<br>
 모든 게임에 대해서는 라데온 그래픽 카드를 사용할 때만 가능하다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\Radeon.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/Radeon.md</guid><pubDate>Thu, 03 Jul 2025 07:31:28 GMT</pubDate></item><item><title><![CDATA[Flutter]]></title><description><![CDATA[ 
  <br><a data-href="Dart" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Dart\Dart.html" class="internal-link" target="_self" rel="noopener nofollow">Dart</a>를 사용하는 크로스 플랫폼 프레임워크다.]]></description><link>컴퓨터 공학\프레임워크\앱 프레임워크\Flutter\Flutter.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/앱 프레임워크/Flutter/Flutter.md</guid><pubDate>Thu, 26 Jun 2025 08:46:55 GMT</pubDate></item><item><title><![CDATA[React Native]]></title><description><![CDATA[ 
- <br>React의 문법으로 안드로이드, Ios 앱을 개발할 수 있는 앱 프레임워크다.]]></description><link>컴퓨터 공학\프레임워크\앱 프레임워크\React Native\React Native.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/앱 프레임워크/React Native/React Native.md</guid><pubDate>Thu, 26 Jun 2025 08:48:53 GMT</pubDate></item><item><title><![CDATA[@Lazy]]></title><description><![CDATA[ 
+ <br>React의 문법으로 안드로이드, Ios 앱을 개발할 수 있는 앱 프레임워크다.]]></description><link>컴퓨터 공학\프레임워크\앱 프레임워크\React Native\React Native.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/앱 프레임워크/React Native/React Native.md</guid><pubDate>Thu, 26 Jun 2025 08:48:53 GMT</pubDate></item><item><title><![CDATA[Controller]]></title><description><![CDATA[ 
+ <br>웹에서 요청을 받고 Service에 넘겨주는 역할이다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\레이어드 아키텍쳐\Controller.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/레이어드 아키텍쳐/Controller.md</guid><pubDate>Mon, 07 Jul 2025 00:52:44 GMT</pubDate></item><item><title><![CDATA[DTO]]></title><description><![CDATA[ 
+ <br>프론트 엔드로 데이터를 보내기 위한 레이어를 추가한 것이다.<br>
+최소한의 데이터를 가지는 것이 좋고 더 많은 데이터를 포함시켜야 하면<br>
+새로 더 만들어서 사용하면 된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\레이어드 아키텍쳐\DTO.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/레이어드 아키텍쳐/DTO.md</guid><pubDate>Mon, 07 Jul 2025 01:06:26 GMT</pubDate></item><item><title><![CDATA[Entity]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\레이어드 아키텍쳐\Entity.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/레이어드 아키텍쳐/Entity.md</guid><pubDate>Mon, 07 Jul 2025 00:53:08 GMT</pubDate></item><item><title><![CDATA[Repository]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\레이어드 아키텍쳐\Repository.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/레이어드 아키텍쳐/Repository.md</guid><pubDate>Mon, 07 Jul 2025 00:26:30 GMT</pubDate></item><item><title><![CDATA[Service]]></title><description><![CDATA[ 
+ <br>Repository를 사용해 비즈니스 로직을 담당한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\레이어드 아키텍쳐\Service.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/레이어드 아키텍쳐/Service.md</guid><pubDate>Mon, 07 Jul 2025 00:53:06 GMT</pubDate></item><item><title><![CDATA[@Lazy]]></title><description><![CDATA[ 
  <br><a data-href="Proxy Pattern" href="컴퓨터 공학\프로그래밍\방법론\객체지향 프로그래밍\디자인패턴\Proxy Pattern.html" class="internal-link" target="_self" rel="noopener nofollow">Proxy Pattern</a>을 사용해서 만든 빈이다.<br><br>지연 로딩을 위해 프록시 생성<br><br>메서드 파라미터 검증을 위해 프록시 생성<br><br>트랜잭선 관리를 위해 프록시 생성<br>
 스프링 부트는 @Transactional 어노테이션이 들어간 메소드가 발견되면<br>
 스프링은 해당 객체를 만들 때 Transaction 기능을 담은 프록시로 만든다.<br>그리고 @Transactional 어노테이션이 있는 메소드를 실행하기전 Transaction을 시작하고<br>
@@ -1458,29 +1504,30 @@ auto commit을 끄는 설정을 해두면 불필요한 쿼리가 사라진다.<b
 Application.yml에서 수정가능<br><br>트랜잭션이 끝난 후 수행되어야 하는 더티체킹 및 여러가지 작업을 수행한다.<br>
 rollback을 하면 취소된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\JPA\JPA Transaction.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/JPA/JPA Transaction.md</guid><pubDate>Mon, 30 Jun 2025 05:07:35 GMT</pubDate></item><item><title><![CDATA[예시]]></title><description><![CDATA[ 
  <br><br>Controller가 ResponseEntity를 반환하게 만들지 않으면서 상태코드를 수정하고 싶을 때<br>
-<a data-href="Python" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python.html" class="internal-link" target="_self" rel="noopener nofollow">Python</a>의 <a data-tooltip-position="top" aria-label="Python Decorator" data-href="Python Decorator" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python Decorator.html" class="internal-link" target="_self" rel="noopener nofollow">Decorator</a>와 비슷한 구현방법인 것 같다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\REST\스프링부트 AOP.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/REST/스프링부트 AOP.md</guid><pubDate>Thu, 26 Jun 2025 07:28:40 GMT</pubDate></item><item><title><![CDATA[스프링부트 DTO]]></title><description><![CDATA[ 
- <br>프론트 엔드로 데이터를 보내기 위한 레이어를 추가한 것이다.<br>
-최소한의 데이터를 가지는 것이 좋고 더 많은 데이터를 포함시켜야 하면<br>
-새로 더 만들어서 사용하면 된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\REST\스프링부트 DTO.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/REST/스프링부트 DTO.md</guid><pubDate>Thu, 26 Jun 2025 05:34:22 GMT</pubDate></item><item><title><![CDATA[스프링]]></title><description><![CDATA[ 
+<a data-href="Python" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python.html" class="internal-link" target="_self" rel="noopener nofollow">Python</a>의 <a data-tooltip-position="top" aria-label="Python Decorator" data-href="Python Decorator" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python Decorator.html" class="internal-link" target="_self" rel="noopener nofollow">Decorator</a>와 비슷한 구현방법인 것 같다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\REST\스프링부트 AOP.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/REST/스프링부트 AOP.md</guid><pubDate>Thu, 26 Jun 2025 07:28:40 GMT</pubDate></item><item><title><![CDATA[스프링]]></title><description><![CDATA[ 
  <br><a data-href="Java" href="컴퓨터 공학\프로그래밍\언어\Java 계열\Java\Java.html" class="internal-link" target="_self" rel="noopener nofollow">Java</a>기반의 웹 프레임워크]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링.md</guid><pubDate>Tue, 24 Jun 2025 07:40:10 GMT</pubDate></item><item><title><![CDATA[빈]]></title><description><![CDATA[ 
  <br><a data-href="스프링" href="컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링.html" class="internal-link" target="_self" rel="noopener nofollow">스프링</a>의 복잡한 설정 과정을 간소화 시킨 것<br><br>@Component, @Service, @Repository, @Controller등의 어노테이션을 붙이면 빈으로 등록되고<br>
 스프링 컨테이너에 의해 생성되고 다른 빈에 주입이 가능하다.<br>
 빈은 싱글톤으로 관리되고 애플리케이션 전체에서 하나의 인스턴스로만 사용된다.<br><br>Spring Data JPA가 제공하는 인터페이스로 CRUD 작업을 위한 메서드를 포함한다.<br><br>이걸 통해 만들면 복잡한 객체를 만들 수 있고 여러 개를 만들 수 있다.<br><br>로 만들면 한개만 만들어지고 단순한 생성법어어야 한다.<br><br><br>스프링부트 어플리케이션이 시작될 때 자동으로 실행된다.<br>
-run(ApplicationArguments args) 메서드를 구현해야한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링 부트.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링 부트.md</guid><pubDate>Mon, 23 Jun 2025 01:48:22 GMT</pubDate></item><item><title><![CDATA[스프링부트 세팅]]></title><description><![CDATA[ 
- <br>컴파일 옵션에 "-parameters" 옵션을 추가한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 세팅.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 세팅.md</guid><pubDate>Mon, 23 Jun 2025 01:49:30 GMT</pubDate></item><item><title><![CDATA[스프링부트 흐름]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 흐름.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 흐름.md</guid><pubDate>Fri, 04 Jul 2025 03:43:57 GMT</pubDate></item><item><title><![CDATA[스프링부트 HTML 이동]]></title><description><![CDATA[ 
+run(ApplicationArguments args) 메서드를 구현해야한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링 부트.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링 부트.md</guid><pubDate>Mon, 23 Jun 2025 01:48:22 GMT</pubDate></item><item><title><![CDATA[스프링 부트 쿠키]]></title><description><![CDATA[ 
+ <br>Cookie 객체를 만들어서 HttpServletResponse에 addCookie를 통해 넣으면 된다.<br>
+<a data-href="쿠키" href="컴퓨터 공학\인터넷\web\back end\쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링 부트 쿠키.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링 부트 쿠키.md</guid><pubDate>Mon, 07 Jul 2025 05:30:24 GMT</pubDate></item><item><title><![CDATA[스프링부트 세팅]]></title><description><![CDATA[ 
+ <br>컴파일 옵션에 "-parameters" 옵션을 추가한다.<br>
+이 기능은 함수의 매개변수의 이름을 저장하게 만들어서<br>
+매개변수의 이름을 가진 빈을 사용해야하는 경우가 발생하는데 이 경우에 사용된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 세팅.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 세팅.md</guid><pubDate>Mon, 07 Jul 2025 00:25:56 GMT</pubDate></item><item><title><![CDATA[스프링부트 흐름]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 흐름.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 흐름.md</guid><pubDate>Mon, 07 Jul 2025 00:26:06 GMT</pubDate></item><item><title><![CDATA[스프링부트 HTML 이동]]></title><description><![CDATA[ 
  <br>Contorller 메소드에서 문자열을 반환하면 해당 경로의 HTML로 연결된다.<br>예를 들어 POST 매핑하는 메소드에서 <a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>을 이동하면 해당 경로의 POST 요청을 하게된다.<br>
 그래서 새로고침을 하면 같은 POST 요청을 날리기도 하고<br>
 다른 곳에 갔다가 뒤로가기를 통해서도 POST 요청을 날린다.<br>
 그래서 redirect:를 붙여 302 <a data-href="상태 코드" href="컴퓨터 공학\인터넷\web\back end\상태 코드.html" class="internal-link" target="_self" rel="noopener nofollow">상태 코드</a>를 가지게 한다.<br>
-그러면 POST 요청에서 바로 GET 요청으로 해당 HTML로 이동한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 HTML 이동.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 HTML 이동.md</guid><pubDate>Thu, 03 Jul 2025 08:34:07 GMT</pubDate></item><item><title><![CDATA[스프링부트 TDD]]></title><description><![CDATA[ 
- <br>Service, Repository를 만들 때 TDD로 만들지 않아도 된다.<br>Controller는 꼭 TDD로 만들어야 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 TDD.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 TDD.md</guid><pubDate>Thu, 26 Jun 2025 06:05:07 GMT</pubDate></item><item><title><![CDATA[REST API]]></title><description><![CDATA[ 
+그러면 POST 요청에서 바로 GET 요청으로 해당 HTML로 이동한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 HTML 이동.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 HTML 이동.md</guid><pubDate>Thu, 03 Jul 2025 08:34:07 GMT</pubDate></item><item><title><![CDATA[스프링부트 TDD 팁]]></title><description><![CDATA[ 
+ <br>Service, Repository를 만들 때 TDD로 만들지 않아도 된다.<br>Controller는 꼭 TDD로 만들어야 한다.<br>권한 관련된 테스트는 진행하는 것을 추천한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 TDD 팁.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 TDD 팁.md</guid><pubDate>Mon, 07 Jul 2025 01:05:58 GMT</pubDate></item><item><title><![CDATA[REST API]]></title><description><![CDATA[ 
  <br>controller의 매개변수에 어노테이션을 넣어 조건을 만족하는지 확인한다.<br>
 클래스에 @Validated를 적어야 한다.<br>
 만약 class를 만들어 Form을 만들면 @Validated를 없애도 된다.<br><br>아이디와 비밀번호를 서버에 전송해서 해당 유저에 맞는 서비스를 제공하는 방식도 있고<br>
 로그인을 하면 API 키를 제공해서 API키를 통해 유저에 맞는 서비스를 제공하게 하는 방식도 있다.<br>
 API 키의 경우 경로에 같이 넣어서 사용할 수는 있지만 보안상 문제가 발생할 가능성이 있기에<br>
-헤더에 넣어서 요청을 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 Validation.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 Validation.md</guid><pubDate>Fri, 04 Jul 2025 08:54:55 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
+헤더에 넣어서 요청을 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 Validation.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 Validation.md</guid><pubDate>Mon, 07 Jul 2025 01:06:01 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\Flask\Flask.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/Flask/Flask.md</guid><pubDate>Mon, 30 Jun 2025 08:13:23 GMT</pubDate></item><item><title><![CDATA[생성]]></title><description><![CDATA[ 
  <br>React 컴포넌트를 통한 클라이언트 기능과 API 기능 및 서버 컴포넌트를 통한 서버 기능을 가진 프레임워크다.<br>기본적으로 사용하는 포트는 3000이다.<br><br>npx create-next-app@latest
 <br><br><br><br><br><br>npm run dev
@@ -1676,7 +1723,7 @@ tight한 bound를 묘사하는데 사용<br><br>하한선을 의미한다.<br>
 실제로는 max(N,M)이지만 표기할 때 O(N+M)이다.<br>만약 N안에 M의 루프를 돌릴 경우<br>
 O(N*M)으로 표기한다.<br><br>O(1) &lt; O(logN) &lt; O(N) &lt; O(N*logN) &lt; O(N^2) &lt; O(2^N) &lt; O(N!)<br>
 순서다.<br><br>Upper bound를 알아도 충분함]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\시간 복잡도.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/시간 복잡도.md</guid><pubDate>Tue, 24 Jun 2025 07:56:03 GMT</pubDate></item><item><title><![CDATA[해시]]></title><description><![CDATA[ 
- <br>임의의 크기를 가진 데이터를 일정 고전된 크기로 변환시키는 것을 말한다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\해시.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/해시.md</guid><pubDate>Fri, 27 Jun 2025 06:13:58 GMT</pubDate></item><item><title><![CDATA[레지스터]]></title><description><![CDATA[ 
+ <br>임의의 크기를 가진 데이터를 일정 고정된 크기로 변환시키는 것을 말한다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\해시.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/해시.md</guid><pubDate>Mon, 07 Jul 2025 08:07:38 GMT</pubDate></item><item><title><![CDATA[레지스터]]></title><description><![CDATA[ 
  <br><br>al, ah, ax, eax, rax처럼 크기에 따라 다르게 부른다.<br>
 참고로 크기에 따라 다르게 부르지만 이 집합은 같은 공간을 공유한다.<br>
 여기에서 a는 레지스터 이름이고 뒤와 앞에 붙은 것은 크기를 구분한다.<br>
@@ -1834,8 +1881,75 @@ function("test", file=sys.stderr)
 **kwargs는 키워드를 통해 입력 받는 매개변수다.<br>
 그대로 함수에 넣으면 입력 받을 때와 똑같이 입력을 시킬 수 있다.<br>
 그러니까 저기 함수에서는<br>
-print("test", file=sys.stderr)로 호출이 되었다는 것이다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 매개변수.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 매개변수.md</guid><pubDate>Fri, 04 Jul 2025 08:48:29 GMT</pubDate></item><item><title><![CDATA[Python 문법]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 문법.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 문법.md</guid><pubDate>Thu, 26 Jun 2025 07:28:53 GMT</pubDate></item><item><title><![CDATA[Python 타입 어노테이션]]></title><description><![CDATA[ 
+print("test", file=sys.stderr)로 호출이 되었다는 것이다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 매개변수.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 매개변수.md</guid><pubDate>Fri, 04 Jul 2025 08:48:29 GMT</pubDate></item><item><title><![CDATA[파이썬 문법]]></title><description><![CDATA[ 
+ <br><br><br>파이썬에서는 들여쓰기로 코드 블록을 구분합니다. 보통 공백 4칸을 사용합니다.<br>if a &gt; 1:
+    print("a는 1보다 큽니다")
+else:
+    print("a는 1과 같거나 작습니다")
+<br><br>
+<br>한 줄 주석: #
+<br>여러 줄 주석: """ 또는 '''
+<br># 한 줄 주석
+
+"""
+여러 줄
+주석
+"""
+<br><br>변수 선언 시 자료형을 명시할 필요가 없습니다.<br>
+<br>숫자형: int, float
+<br>문자열: str
+<br>불리언: bool (True, False)
+<br>number = 10
+pi = 3.14
+greeting = "안녕하세요!"
+is_true = True
+<br><br>
+<br>리스트 (List): 순서가 있고, 수정 가능. []
+<br>튜플 (Tuple): 순서가 있고, 수정 불가능. ()
+<br>딕셔너리 (Dictionary): Key-Value 쌍, 순서 없음. {}
+<br>my_list = [1, "hello", 3.14]
+my_tuple = (1, 2, 3)
+my_dict = {"이름": "홍길동", "나이": 30}
+<br><br>
+<br>조건문: if, elif, else, match
+<br>반복문: for, while
+<br># 조건문
+score = 85
+if score &gt;= 90:
+    print("A")
+elif score &gt;= 80:
+    print("B")
+else:
+    print("C")
+
+# match 조건문
+score = 1
+match:
+	case 1:
+		print("1")
+	case 2:
+		print("2")
+	case 3:
+		print("3)
+	case _:
+		print("1,2,3중에 골라주세요")
+
+# for 반복문
+for i in range(5):
+    print(i)
+
+# while 반복문
+count = 0
+while count &lt; 5:
+    print(count)
+    count += 1
+<br><br>def 키워드를 사용하여 함수를 정의합니다.<br>def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)  # 8
+]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 문법.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 문법.md</guid><pubDate>Mon, 07 Jul 2025 08:00:36 GMT</pubDate></item><item><title><![CDATA[파이썬 연산자]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Gemini-CLI]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 연산자.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 연산자.md</guid><pubDate>Mon, 07 Jul 2025 07:57:35 GMT</pubDate></item><item><title><![CDATA[Python 타입 어노테이션]]></title><description><![CDATA[ 
  <br>파이썬은 타입을 명시할 수 있다.<br>
 그렇다고 타입 체크를 하지는 않는다.<br>a:int = 10
 <br>이런 방식으로 작성이 가능하고 IDE에서는 이를 확인해서 경고까지는 띄우지만 실행할 때 에러를 발생시키지는 않는다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python 타입 어노테이션.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python 타입 어노테이션.md</guid><pubDate>Thu, 26 Jun 2025 07:30:47 GMT</pubDate></item><item><title><![CDATA[Python Decorator]]></title><description><![CDATA[ 
@@ -1891,7 +2005,14 @@ print(next(gen))
 print(next(gen))
 <br>함수를 진행하다가 멈춰서 값을 반환한다.<br>
 for each로 반복문을 실행할 수 있다.<br>
-메모리 사용 절약이 목적이다.<br>출처 <a data-tooltip-position="top" aria-label="https://hyeonql.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Yield-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%98%88%EC%A0%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EC%83%81%EC%84%B8-%EA%B0%80%EC%9D%B4%EB%93%9C" rel="noopener nofollow" class="external-link" href="https://hyeonql.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Yield-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%98%88%EC%A0%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EC%83%81%EC%84%B8-%EA%B0%80%EC%9D%B4%EB%93%9C" target="_blank">링크</a>]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python Generator.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python Generator.md</guid><pubDate>Fri, 04 Jul 2025 08:40:59 GMT</pubDate></item><item><title><![CDATA[int]]></title><description><![CDATA[ 
+메모리 사용 절약이 목적이다.<br>출처 <a data-tooltip-position="top" aria-label="https://hyeonql.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Yield-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%98%88%EC%A0%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EC%83%81%EC%84%B8-%EA%B0%80%EC%9D%B4%EB%93%9C" rel="noopener nofollow" class="external-link" href="https://hyeonql.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-Yield-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%EC%98%88%EC%A0%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EC%83%81%EC%84%B8-%EA%B0%80%EC%9D%B4%EB%93%9C" target="_blank">링크</a>]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python Generator.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python Generator.md</guid><pubDate>Fri, 04 Jul 2025 08:40:59 GMT</pubDate></item><item><title><![CDATA[Python List comprehension]]></title><description><![CDATA[ 
+ <br>for 문을 통해서 리스트를 만드는걸 간략하게 만든 것이다.<br>size:int = 10
+arr:list[int] = list()
+for i in range(size):
+	arr.append(i)
+<br>이 리스트를 만드는 걸 한 줄로 줄일 수 있다.<br>arr:list[int] = (lambda size : [i for i in range(size)])(size:=10)
+<br>size에 10을 넣는 것을 시키기 위해서 상당히 복잡하게 보인다 그냥 size 변수를 없애자<br>arr:list[int] = [i for i in range(10)]
+<br><br><a data-tooltip-position="top" aria-label="https://shoark7.github.io/programming/python/about-list-comprehension-python" rel="noopener nofollow" class="external-link" href="https://shoark7.github.io/programming/python/about-list-comprehension-python" target="_blank">링크</a>]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python List comprehension.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python List comprehension.md</guid><pubDate>Mon, 07 Jul 2025 07:45:49 GMT</pubDate></item><item><title><![CDATA[int]]></title><description><![CDATA[ 
  <br>litteral 빼고 전부 다 객체로 되어 있다고 보면 된다.<br><br>정수를 저장하는 자료형이다.<br>
 크기가 제한되지 않는다.<br><br>문자열을 저장하는 자료형이다.<br><br>소수를 저장하는 자료형이다.<br><br>여러 값을 저장하는 <a data-href="List" href="컴퓨터 공학\프로그래밍\자료 구조\List.html" class="internal-link" target="_self" rel="noopener nofollow">List</a>다.<br><br><a data-href="Hash Table" href="컴퓨터 공학\프로그래밍\자료 구조\Hash Table.html" class="internal-link" target="_self" rel="noopener nofollow">Hash Table</a>구조의 딕셔너리다.<br><br>동일한 요소를 허용시키지 않는 Hash set이다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python types.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python types.md</guid><pubDate>Fri, 04 Jul 2025 08:37:51 GMT</pubDate></item><item><title><![CDATA[cmake]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\빌드\cmake.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/빌드/cmake.md</guid><pubDate>Tue, 01 Jul 2025 02:39:16 GMT</pubDate></item><item><title><![CDATA[ninja]]></title><description><![CDATA[ 
@@ -1928,10 +2049,14 @@ public:
 		return this-&gt;_Money;
 	}
 }
-<br>이런 식으로 가능하고<br>int main(){
-	
+<br>이런 식으로 가능하고<br>#include &lt;iostream&gt;
+
+int main(){
+	Money money = Money(100);
+	std::cout &lt;&lt; money() &lt;&lt; std::endl;
 }
-]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\C++\C++ 펑터.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/C++/C++ 펑터.md</guid><pubDate>Thu, 03 Jul 2025 07:26:46 GMT</pubDate></item><item><title><![CDATA[C++ template]]></title><description><![CDATA[ 
+]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\C++\C++ 펑터.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/C++/C++ 펑터.md</guid><pubDate>Mon, 07 Jul 2025 08:02:13 GMT</pubDate></item><item><title><![CDATA[C++ class]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\C++\C++ class.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/C++/C++ class.md</guid><pubDate>Mon, 07 Jul 2025 08:02:19 GMT</pubDate></item><item><title><![CDATA[C++ template]]></title><description><![CDATA[ 
  <br>컴파일 타임에 연산을 할 수 있다.<br>
 재귀적으로 사용해서 연산을 한다.<br>
 엄청 자유로워서 피보나치 연산도 가능하다.<br>제네릭을 구현할 때도 쓰고<br>
@@ -2361,7 +2486,8 @@ transaction 2는 x와 y를 더해서 y에 쓴다.<br><br>locking read를 사용�
 for update 보다 데드락이 걸릴 가능성이 높기에 주의해야한다.<br><br>SSI로 구현한다.<br>
 first-committer-winner 방식이다.<br><br>MVCC는 데이터를 읽을 때 특정 시점 기준으로 가장 최근에 commit된 데이터를 읽는다.<br>
 데이터 변화 이력을 관리한다.<br>
-read와 write는 서로를 block 하지 않는다.<br>이렇게 읽는 것을 MySql에서는 Consistent Read라고 부른다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DB\MVCC.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DB/MVCC.md</guid><pubDate>Sun, 06 Jul 2025 14:52:37 GMT</pubDate></item><item><title><![CDATA[ERD]]></title><description><![CDATA[ 
+read와 write는 서로를 block 하지 않는다.<br>이렇게 읽는 것을 MySql에서는 Consistent Read라고 부른다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DB\MVCC.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DB/MVCC.md</guid><pubDate>Mon, 07 Jul 2025 13:33:01 GMT</pubDate></item><item><title><![CDATA[Dirdy read]]></title><description><![CDATA[ 
+ <br><br>commit 되지 않은 변화를 읽는 경우다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DB\Transaction isolation level.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DB/Transaction isolation level.md</guid><pubDate>Mon, 07 Jul 2025 13:33:28 GMT</pubDate></item><item><title><![CDATA[ERD]]></title><description><![CDATA[ 
  <br><br>어떤 정보가 있는지 알게 해주고<br>
 정보를 그룹화 시켜 묶고<br>
 그 그룹간의 관계를 표현한다.<br><br>표 안에 표로 표현하면 안된다.<br>
@@ -2370,7 +2496,7 @@ read와 write는 서로를 block 하지 않는다.<br>이렇게 읽는 것을 My
 표현할 때 네모로 표현한다.<br>
 Attribute를 선으로 연결한다.<br><br>표현할 때 마름모로 표현한다.<br>
 Entity와 선으로 연결한다.<br>엔티티간 관계에서<br>
-<a data-href="Cardinality" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Cardinality.html" class="internal-link" target="_self" rel="noopener nofollow">Cardinality</a>와 <a data-href="Optionality" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Optionality.html" class="internal-link" target="_self" rel="noopener nofollow">Optionality</a>가 있는데 고려해서 표기한다.<br><br>쓰기 페이지에서 보이는 정보가 각각 하나의 테이블에 들어갈 만함<br><br>정규화를 통해 데이터의 중복을 없애야 한다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\개념적 데이터 모델링.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/개념적 데이터 모델링.md</guid><pubDate>Tue, 17 Jun 2025 06:25:20 GMT</pubDate></item><item><title><![CDATA[Mapping Rule]]></title><description><![CDATA[ 
+<a data-href="Cardinality" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Cardinality.html" class="internal-link" target="_self" rel="noopener nofollow">Cardinality</a>와 <a data-href="Optionality" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Optionality.html" class="internal-link" target="_self" rel="noopener nofollow">Optionality</a>가 있는데 고려해서 표기한다.<br><br>쓰기 페이지에서 보이는 정보가 각각 하나의 테이블에 들어갈 만함<br><br>정규화를 통해 데이터의 중복을 없애야 한다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\개념적 데이터 모델링.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/개념적 데이터 모델링.md</guid><pubDate>Mon, 07 Jul 2025 00:53:11 GMT</pubDate></item><item><title><![CDATA[Mapping Rule]]></title><description><![CDATA[ 
  <br><br><br><br><br><br>A가 B에게 Private Key를 넘겨 Foreign Key를 주면 됨<br><br>A가 B에게 Private Key를 넘겨 Foreign Key를 주면 됨<br><br>Mapping Table이 필요함<br>
 A와 B의 Primary Key를 가지는 테이블을 생성함]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\논리적 데이터 모델링.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/논리적 데이터 모델링.md</guid><pubDate>Fri, 13 Jun 2025 07:40:03 GMT</pubDate></item><item><title><![CDATA[1. <a data-href="업무파악" href="컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/업무파악.html" class="internal-link" target="_self" rel="noopener nofollow">업무파악</a>]]></title><description><![CDATA[ 
  <br><br><br><br>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\데이터 모델링 전체 흐름.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/데이터 모델링 전체 흐름.md</guid><pubDate>Thu, 12 Jun 2025 08:04:13 GMT</pubDate></item><item><title><![CDATA[find slow query]]></title><description><![CDATA[ 
@@ -2407,11 +2533,11 @@ explicit constraints라고 부른다.<br><br>attribute의 value는 해당 attrib
 표기할 때 B 근처로 동그라미를 그림<br><br>B에게는 A가 꼭 있어야함<br>
 이 경우 A는 Mandatory임<br>
 표기할 때 A 근처로 작대기를 하나 그음]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Optionality.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Optionality.md</guid><pubDate>Fri, 13 Jun 2025 07:21:12 GMT</pubDate></item><item><title><![CDATA[데이터 베이스]]></title><description><![CDATA[ 
- <br><a data-href="Entity" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Entity.html" class="internal-link" target="_self" rel="noopener nofollow">Entity</a>간의 관계를 나타낸다.<br><br>데이터 베이스에서는 PK, FK가 된다.<br><br><br>중복된 tuple을 가질 수 없다.<br>
+ <br><a data-href="컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Entity" href="컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Entity.html" class="internal-link" target="_self" rel="noopener nofollow">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Entity</a>간의 관계를 나타낸다.<br><br>데이터 베이스에서는 PK, FK가 된다.<br><br><br>중복된 tuple을 가질 수 없다.<br>
 튜플을 식별하기 위해 attribute의 부분 집합을 key로 설정한다.<br>
 relation에서 tuple의 순서는 중요하지 않다.<br>
 하나의 relation에서 attribute의 이름은 중복되면 안된다.<br>
-attribute는 atomic 해야 한다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Relation.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Relation.md</guid><pubDate>Wed, 02 Jul 2025 08:08:39 GMT</pubDate></item><item><title><![CDATA[degree]]></title><description><![CDATA[ 
+attribute는 atomic 해야 한다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Relation.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Relation.md</guid><pubDate>Mon, 07 Jul 2025 00:53:11 GMT</pubDate></item><item><title><![CDATA[degree]]></title><description><![CDATA[ 
  <br>relation의 구조를 나타낸다.<br>
 relation 이름과 attributes 리스트로 표기된다.<br><br>atrribute의 수를 말한다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\Relation Schema.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/Relation Schema.md</guid><pubDate>Wed, 02 Jul 2025 08:02:09 GMT</pubDate></item><item><title><![CDATA[relational database schema]]></title><description><![CDATA[ 
  <br>relation schemas set과 integrity constrains set을 합친 것이다.]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\DBMS\관계형 데이터베이스\관계형 데이터 모델링\relational database schema.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/DBMS/관계형 데이터베이스/관계형 데이터 모델링/relational database schema.md</guid><pubDate>Wed, 02 Jul 2025 08:06:27 GMT</pubDate></item><item><title><![CDATA[MariaDb]]></title><description><![CDATA[ 
