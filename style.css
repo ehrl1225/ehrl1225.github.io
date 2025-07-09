@@ -1,0 +1,14 @@
+body > div{
+    justify-self: center;
+}
+
+.body {
+    margin-top: 20px;
+}
+
+body > div > a{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
