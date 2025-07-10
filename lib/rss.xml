@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 09 Jul 2025 08:49:36 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 09 Jul 2025 08:48:58 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프로그래머스 수업]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>프로그래머스 수업</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 10 Jul 2025 13:00:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 10 Jul 2025 13:00:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[디버깅]]></title><description><![CDATA[ 
  <br><br>오류를 수정하는 것<br>
 정확히는 의도와 다르게 작동하는 것을 의도와 맞게 작동되게 만드는 것<br>
 실제로 옛날에 컴퓨터에 벌레가 들어가 오류를 발생시킨 것을 벌레를 빼면서 오류를 수정한 적 있는데<br>
@@ -24,7 +24,10 @@ ctrl + win + T]]></description><link>기타\윈도우 단축키.html</link><guid
 <a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>과 <a data-href="CSS" href="컴퓨터 공학\인터넷\web\front end\CSS\CSS.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a>의 표준을 정하는 W3C<br>
 <a data-href="Javascript" href="컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Javascript\Javascript.html" class="internal-link" target="_self" rel="noopener nofollow">Javascript</a>를 관장하는 ECMA<br>
 이를 웹 표준이라고 부름<br><br>웹 표준을 따르지 않음<br>
-성능이 안좋음<br>어느 사용자는 익스플로러를 쓰기 때문에 익스플로러도 지원해야함<br>각 기능이 어느 버전까지 지원하는지 확인을 해야함<br><br>다른 웹 브라우저에서 돌아가는지 확인하는데 사용한다.]]></description><link>기타\익스플로러를 싫어하는 이유.html</link><guid isPermaLink="false">기타/익스플로러를 싫어하는 이유.md</guid><pubDate>Tue, 17 Jun 2025 15:09:51 GMT</pubDate></item><item><title><![CDATA[SQL injection]]></title><description><![CDATA[ 
+성능이 안좋음<br>어느 사용자는 익스플로러를 쓰기 때문에 익스플로러도 지원해야함<br>각 기능이 어느 버전까지 지원하는지 확인을 해야함<br><br>다른 웹 브라우저에서 돌아가는지 확인하는데 사용한다.]]></description><link>기타\익스플로러를 싫어하는 이유.html</link><guid isPermaLink="false">기타/익스플로러를 싫어하는 이유.md</guid><pubDate>Tue, 17 Jun 2025 15:09:51 GMT</pubDate></item><item><title><![CDATA[CSRF]]></title><description><![CDATA[ 
+ <br>다른 사이트에서 특정 사이트 A 특정 사용자 B를 목표로 해커가 링크를 첨부해<br>
+사용자 B가 사이트 A api 사이트로 쿠키를 전송해 작동시키는 해킹 수법이다.<br>
+이를 사용해 특정 게시물을 없애는 것도 가능하다.<br>그래서 SameSite 속성을 통해서 막을 수 있다.]]></description><link>컴퓨터 공학\보안\해킹\CSRF.html</link><guid isPermaLink="false">컴퓨터 공학/보안/해킹/CSRF.md</guid><pubDate>Thu, 10 Jul 2025 01:14:14 GMT</pubDate></item><item><title><![CDATA[SQL injection]]></title><description><![CDATA[ 
  <br>웹의 취약점을 사용해 <a data-href="sql" href="컴퓨터 공학\프로그램\데이터 베이스\SQL\SQL.html" class="internal-link" target="_self" rel="noopener nofollow">sql</a>을 주입시켜 원하는 데이터를 가져오거나 서버를 고장내는 해킹 수법이다.]]></description><link>컴퓨터 공학\보안\해킹\SQL injection.html</link><guid isPermaLink="false">컴퓨터 공학/보안/해킹/SQL injection.md</guid><pubDate>Tue, 08 Jul 2025 23:35:53 GMT</pubDate></item><item><title><![CDATA[XSS 공격]]></title><description><![CDATA[ 
  <br>제목, 작성자, 이름, 내용 같은 곳에 script를 넣어서<br>
 <a data-href="api" href="컴퓨터 공학\인터넷\web\back end\서버\API\API.html" class="internal-link" target="_self" rel="noopener nofollow">api</a> 키를 탈취하는 방식이다.<br>글을 다양하게 표현하게 만들고 싶어서 XSS 방어를 해제하기도 하는데<br>
@@ -55,9 +58,12 @@ ctrl + win + T]]></description><link>기타\윈도우 단축키.html</link><guid
 그래서 재귀함수는 항상 탈출 조건을 명시해야한다.<br><br>반환 값으로 스스로의 함수를 반환하는 형태다.<br>
 표기하기에 깔끔해 보여서 사용하는 방식으로<br>
 꼬리 재귀를 지원하는 언어의 <a data-href="컴파일러" href="컴퓨터 공학\프로그래밍\프로그래밍 언어론\컴파일러 이론\컴파일러.html" class="internal-link" target="_self" rel="noopener nofollow">컴파일러</a>가 알아서 반복문으로 변경해준다.]]></description><link>컴퓨터 공학\수학\이산수학\재귀함수.html</link><guid isPermaLink="false">컴퓨터 공학/수학/이산수학/재귀함수.md</guid><pubDate>Tue, 08 Jul 2025 23:36:44 GMT</pubDate></item><item><title><![CDATA[선형대수학]]></title><description><![CDATA[ 
- <br>간단하게는 선 여러 개를 회전시키는 수학이다.]]></description><link>컴퓨터 공학\수학\선형대수학.html</link><guid isPermaLink="false">컴퓨터 공학/수학/선형대수학.md</guid><pubDate>Tue, 08 Jul 2025 23:40:19 GMT</pubDate></item><item><title><![CDATA[카오스 이론]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\수학\카오스 이론.html</link><guid isPermaLink="false">컴퓨터 공학/수학/카오스 이론.md</guid><pubDate>Mon, 30 Jun 2025 07:47:22 GMT</pubDate></item><item><title><![CDATA[확률과 통계]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\수학\확률과 통계.html</link><guid isPermaLink="false">컴퓨터 공학/수학/확률과 통계.md</guid><pubDate>Mon, 07 Jul 2025 06:01:07 GMT</pubDate></item><item><title><![CDATA[맥북에서 Docker 설치시 주의 사항]]></title><description><![CDATA[ 
+ <br>간단하게는 선 여러 개를 회전시키는 수학이다.<br>별거 아닌 것처럼 말하긴 했지만<br>
+활용할 때 어떻게 사용하냐면<br>로봇 팔의 end effector의 위치를 구할 수 있다.<br>
+3개의 관절로 이루어진 로봇의 팔의 end effector는<br>
+각 팔의 길이와 관절의 각도를 통해 구할 수 있다.]]></description><link>컴퓨터 공학\수학\선형대수학.html</link><guid isPermaLink="false">컴퓨터 공학/수학/선형대수학.md</guid><pubDate>Wed, 09 Jul 2025 12:07:44 GMT</pubDate></item><item><title><![CDATA[카오스 이론]]></title><description><![CDATA[ 
+ <br>난수를 생성하는 이론이다.]]></description><link>컴퓨터 공학\수학\카오스 이론.html</link><guid isPermaLink="false">컴퓨터 공학/수학/카오스 이론.md</guid><pubDate>Thu, 10 Jul 2025 08:38:21 GMT</pubDate></item><item><title><![CDATA[확률과 통계]]></title><description><![CDATA[ 
+ <br>확률과 통계를 다루는 학문이다.<br>경우의 수, 확률, 평균, 표준편차 등을 사용한다.]]></description><link>컴퓨터 공학\수학\확률과 통계.html</link><guid isPermaLink="false">컴퓨터 공학/수학/확률과 통계.md</guid><pubDate>Thu, 10 Jul 2025 08:39:00 GMT</pubDate></item><item><title><![CDATA[맥북에서 Docker 설치시 주의 사항]]></title><description><![CDATA[ 
  <br>맥북은 <a data-href="ARM" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\ARM.html" class="internal-link" target="_self" rel="noopener nofollow">ARM</a>아키텍쳐를 가지고 있기에 docker 설치시에 ARM 버전으로 설치해야한다.<br>
 기본적으로는 <a data-href="x86" href="컴퓨터 공학\컴퓨터 구조\CPU\아키텍쳐\x86.html" class="internal-link" target="_self" rel="noopener nofollow">x86</a>아키텍쳐로 설치하기 때문에 에뮬레이터를 통해 x86으로 만들어진 명령어를 실행한다.]]></description><link>컴퓨터 공학\운영체제\가상화\docker\맥북에서 Docker 설치시 주의 사항.html</link><guid isPermaLink="false">컴퓨터 공학/운영체제/가상화/docker/맥북에서 Docker 설치시 주의 사항.md</guid><pubDate>Sun, 06 Jul 2025 12:41:42 GMT</pubDate></item><item><title><![CDATA[Docker]]></title><description><![CDATA[ 
  <br>개발된 환경을 이미지로 저장하고<br>
@@ -298,7 +304,8 @@ MBR에는 부트 로더의 위치가 저장되어 있다.<br>
 <br><a data-href="FTP" href="컴퓨터 공학\프로그램\SSH\FTP.html" class="internal-link" target="_self" rel="noopener nofollow">FTP</a> : 파일 전송
 <br><br>세션 계층과 표현 계층과 응용 계층을 하나로 묶어서 응용계층으로 함<br>
 그래서 여기서 세션과 표현 계층을 생략함<br><br>운영체제의 Transprot Layer에서 제공하는 API를 활용하여 통신 가능한 프로그램을 만드는 것을 말함]]></description><link>컴퓨터 공학\인터넷\네트워크\네트워크 계층 구조\OSI 7 Layers.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/네트워크/네트워크 계층 구조/OSI 7 Layers.md</guid><pubDate>Fri, 27 Jun 2025 08:51:30 GMT</pubDate></item><item><title><![CDATA[TCP IP]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\인터넷\네트워크\네트워크 계층 구조\TCP IP.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/네트워크/네트워크 계층 구조/TCP IP.md</guid><pubDate>Fri, 27 Jun 2025 08:37:23 GMT</pubDate></item><item><title><![CDATA[블로킹]]></title><description><![CDATA[ 
+ <br>물리 계층, 데이터 링크 계층, IP 계층, TCP계층, 응용계층으로 이루어진 구조로<br>
+OSI 7 Layers 보다 간단하게 표현된 계층 구조다.]]></description><link>컴퓨터 공학\인터넷\네트워크\네트워크 계층 구조\TCP IP.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/네트워크/네트워크 계층 구조/TCP IP.md</guid><pubDate>Thu, 10 Jul 2025 08:36:36 GMT</pubDate></item><item><title><![CDATA[블로킹]]></title><description><![CDATA[ 
  <br><br>블로킹은 클라이언트가 접속하면 클라이언트의 입력을 대기하는 것이다.<br>
 따라서 서버를 스레드 하나로만 만들면 클라이언트 하나를 받으면 서버가 멈춘다.<br>
 따라서 스레드를 여러개 만들어서 클라이언트에 대응한다.<br><br>논 블로킹은 클라이언트의 입력을 대기하지 않는 것이다.<br>
@@ -1062,7 +1069,7 @@ Chorme, Internet Explorer, Microsoft Edge, Firfox, Safari, Whale<br><br>World Wi
 내 컴퓨터에 없으면 루트 DNS 서버로 접속해 DNS의 정보를 어디서 얻을 수 있는지 알아옴<br>예시를 들면 www.naver.com 이라는 도메인의 주소를 알아오려면 Local을 먼저 확인 후 Root DNS 서버에 접속을 해서 .com 의 위치를 알아온 후 .com에서는 naver.com의 위치를 알아오고 naver.com에서는 www.naver.com의 위치를 알게됨<br><br>다른 사람이 DNS 정보를 가져오려 할 때 다른 사이트의 정보를 줘서 연결 시키는 해킹 수법<br><br><br>도메인과 주소를 바로 연결하는 것<br><br>IP가 유동적으로 변할 경우<br>
 그 IP와 일정적으로 연결되는 IP로 연결하는 것]]></description><link>컴퓨터 공학\인터넷\DNS.html</link><guid isPermaLink="false">컴퓨터 공학/인터넷/DNS.md</guid><pubDate>Wed, 04 Jun 2025 14:27:12 GMT</pubDate></item><item><title><![CDATA[리누스 토발즈]]></title><description><![CDATA[ 
  <br><a data-href="리눅스" href="컴퓨터 공학\운영체제\종류\리눅스\리눅스.html" class="internal-link" target="_self" rel="noopener nofollow">리눅스</a>를 만들었다.<br>
-<a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>을 만들었다.]]></description><link>컴퓨터 공학\중요한 인물\리누스 토발즈.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/리누스 토발즈.md</guid><pubDate>Thu, 03 Jul 2025 08:17:06 GMT</pubDate></item><item><title><![CDATA[빌 게이츠]]></title><description><![CDATA[ 
+<a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>을 만들었다.]]></description><link>컴퓨터 공학\중요한 인물\리누스 토발즈.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/리누스 토발즈.md</guid><pubDate>Thu, 03 Jul 2025 08:17:06 GMT</pubDate></item><item><title><![CDATA[빌 게이츠]]></title><description><![CDATA[ 
  <br>Microsoft의 창업주다.]]></description><link>컴퓨터 공학\중요한 인물\빌 게이츠.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/빌 게이츠.md</guid><pubDate>Thu, 03 Jul 2025 08:16:49 GMT</pubDate></item><item><title><![CDATA[튜링 머신]]></title><description><![CDATA[ 
  <br>컴퓨터과학의 아버지다.<br><br>앨런 튜링이 1936년에 제시한 개념으로 계산하는 기계의 일반적인 개념을 설명하기 위한 가상의 기계며 오토마타의 일종이다.]]></description><link>컴퓨터 공학\중요한 인물\앨런 튜링.html</link><guid isPermaLink="false">컴퓨터 공학/중요한 인물/앨런 튜링.md</guid><pubDate>Thu, 03 Jul 2025 08:25:09 GMT</pubDate></item><item><title><![CDATA[출처]]></title><description><![CDATA[ 
  <br>세계의 망을 하나로 묶는 거대한 인트라넷인 www를 제안했다.=<br>
@@ -1181,7 +1188,15 @@ T가 Low고 한 클럭이 지나면 결과 값은 변하지 않는다.<br>
 T가 의미하는게 Toggle이다.<br>
 이건 카운터에 쓰기에 좋다.]]></description><link>컴퓨터 공학\컴퓨터 구조\디지털 논리 회로\Flip-Flop.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/디지털 논리 회로/Flip-Flop.md</guid><pubDate>Thu, 26 Jun 2025 08:02:09 GMT</pubDate></item><item><title><![CDATA[Latch]]></title><description><![CDATA[ 
  <br>NAND나 NOR을 두 개를 놓고 출력값을 반대편쪽의 입력값으로 입력시킵니다.<br>그러면 항상 둘 중 하나의 출력값이 High이고 반대는 Low값을 가지게 됩니다.<br>NAND나 NOR 중 하나는 한 입력값에 Low에서 High로 가면 값이 변하거나<br>
-High에서 Low로 갈 때 변하기도 합니다.]]></description><link>컴퓨터 공학\컴퓨터 구조\디지털 논리 회로\Latch.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/디지털 논리 회로/Latch.md</guid><pubDate>Sun, 22 Jun 2025 06:22:07 GMT</pubDate></item><item><title><![CDATA[레지스터]]></title><description><![CDATA[ 
+High에서 Low로 갈 때 변하기도 합니다.]]></description><link>컴퓨터 공학\컴퓨터 구조\디지털 논리 회로\Latch.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/디지털 논리 회로/Latch.md</guid><pubDate>Sun, 22 Jun 2025 06:22:07 GMT</pubDate></item><item><title><![CDATA[자기테이프]]></title><description><![CDATA[ 
+ <br>테이프를 통해 데이터를 저장하는 장치다.<br>
+비교적으로 많은 데이터를 저장할 수 있다.<br>
+하지만 읽거나 쓰는 속도가 엄청 느리다.]]></description><link>컴퓨터 공학\컴퓨터 구조\메모리\보조 기억 장치\자기테이프.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/메모리/보조 기억 장치/자기테이프.md</guid><pubDate>Thu, 10 Jul 2025 08:20:05 GMT</pubDate></item><item><title><![CDATA[HDD]]></title><description><![CDATA[ 
+ <br>CD 여러 개가 들어있고 CD마다 아주 작은 자석을 두어서 자석의 방향을 통해 0과 1을 정한다.<br>
+이 자석을 읽는 헤더가 필요하며<br>
+자석을 하나하나 읽어가며 자료를 찾기 때문에 속도가 느린편이다.]]></description><link>컴퓨터 공학\컴퓨터 구조\메모리\보조 기억 장치\HDD.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/메모리/보조 기억 장치/HDD.md</guid><pubDate>Thu, 10 Jul 2025 08:18:25 GMT</pubDate></item><item><title><![CDATA[SSD]]></title><description><![CDATA[ 
+ <br>낸드 플래시 메모리를 사용하여 소리가 없이 저장하고 HDD와 다르게 충격에 강한 편이다.<br>낸드 플래시 메모리는 전자를 포획해서 데이터를 저장한다.<br>사용할 수 있는 횟수가 정해져있다.<br>
+그래서 수명이 정해져있다.]]></description><link>컴퓨터 공학\컴퓨터 구조\메모리\보조 기억 장치\SSD.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/메모리/보조 기억 장치/SSD.md</guid><pubDate>Thu, 10 Jul 2025 08:25:03 GMT</pubDate></item><item><title><![CDATA[레지스터]]></title><description><![CDATA[ 
  <br><a data-tooltip-position="top" aria-label="Flip-Flop > D-Flip-Flop" data-href="Flip-Flop#D-Flip-Flop" href="컴퓨터 공학\컴퓨터 구조\디지털 논리 회로\Flip-Flop.html#D-Flip-Flop" class="internal-link" target="_self" rel="noopener nofollow">D-Flip-Flop</a>으로 만드는 잠깐 저장하는 기억장치다.<br>연산을 할 때 레지스터에 값을 넣고 ALU에 보내 연산을 합니다.]]></description><link>컴퓨터 공학\컴퓨터 구조\메모리\레지스터.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/메모리/레지스터.md</guid><pubDate>Thu, 26 Jun 2025 08:02:29 GMT</pubDate></item><item><title><![CDATA[코드 영역]]></title><description><![CDATA[ 
  <br><br>코드가 저장되는 공간이다.<br>
 <a data-href="CPU" href="컴퓨터 공학\컴퓨터 구조\CPU\CPU.html" class="internal-link" target="_self" rel="noopener nofollow">CPU</a>에서 코드 영역의 저장된 명령을 가져가서 처리한다.<br><br>전역 변수와 정적 변수가 저장되는 공간이다.<br><br>동적으로 프로그래머가 직접 공간을 할당하거나 해제하는 메모리 공간이다.<br>
@@ -1443,7 +1458,10 @@ function:
 밸런스를 잘 맞춰서 성능을 올려야 한다.<br>예를들어 x86이랑 RISC-V랑 비교하면<br>
 x86은 명령어 종류가 많고 RISC-V에서는 여러 개의 명령어로 이루어진 것을 하나의 명령어로 실행할 수 있고 명령어의 크기가 여러개라서 명령어를 읽는 과정이 필요하다.<br>
 그래서 프로그램당 명령어의 개수가 적고 고전력에서 좋은 성능을 가진다.<br>RISC는 명령어 종류가 적고 명령어의 크기가 일정하다.<br>
-프로그램당 명령어의 개수가 많고 저전력에서도 좋은 성능을 가진다.]]></description><link>컴퓨터 공학\컴퓨터 구조\CPU 성능.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/CPU 성능.md</guid><pubDate>Tue, 08 Jul 2025 02:38:28 GMT</pubDate></item><item><title><![CDATA[HDD 가격]]></title><description><![CDATA[ 
+프로그램당 명령어의 개수가 많고 저전력에서도 좋은 성능을 가진다.]]></description><link>컴퓨터 공학\컴퓨터 구조\CPU 성능.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/CPU 성능.md</guid><pubDate>Tue, 08 Jul 2025 02:38:28 GMT</pubDate></item><item><title><![CDATA[GPU]]></title><description><![CDATA[ 
+ <br>작고 저성능의 CPU를 많이 넣어둔 장치다.<br>
+모니터에 띄울 픽셀들을 계산하는 것이 고성능을 필요로 하지 않는데 많은 처리량이 필요해서<br>
+고성능에 적은 처리량를 가지는 CPU 대신 픽셀 계산하기 위해 만들어졌다.<br>지금은 게임이나 인공지능에 쓰인다.]]></description><link>컴퓨터 공학\컴퓨터 구조\GPU.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 구조/GPU.md</guid><pubDate>Thu, 10 Jul 2025 08:28:06 GMT</pubDate></item><item><title><![CDATA[HDD 가격]]></title><description><![CDATA[ 
  <br>장치 안에 CD 여러 개를 넣은 상태고 헤더를 통해 물리적으로 CD를 읽는 방식이기에<br>
 물리적인 충격에 약하다.<br><a data-tooltip-position="top" aria-label="SSD 가격" data-href="SSD 가격" href="컴퓨터 공학\컴퓨터 조립\메모리\보조기억장치\SSD 가격.html" class="internal-link" target="_self" rel="noopener nofollow">SSD</a>보다는 가격이 저렴하다.<br>고장이 날 경우 데이터를 일부를 제외하고 대부분을 복원할 수 있다.]]></description><link>컴퓨터 공학\컴퓨터 조립\메모리\보조기억장치\HDD 가격.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/메모리/보조기억장치/HDD 가격.md</guid><pubDate>Thu, 03 Jul 2025 02:10:47 GMT</pubDate></item><item><title><![CDATA[SSD 가격]]></title><description><![CDATA[ 
  <br>전자식으로 데이터를 저장하는 방식이라 물리적인 충격에 강하다.<br>고장이 날 경우 복원이 어렵다.<br>비싼 편에 속한다.]]></description><link>컴퓨터 공학\컴퓨터 조립\메모리\보조기억장치\SSD 가격.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/메모리/보조기억장치/SSD 가격.md</guid><pubDate>Thu, 03 Jul 2025 02:11:06 GMT</pubDate></item><item><title><![CDATA[RAM 가격]]></title><description><![CDATA[ 
@@ -1486,10 +1504,23 @@ Ryzen의 위상이 변화하기 시작했다.<br>
 뒤의 숫자는 성능이나 기능을 표현한다.]]></description><link>컴퓨터 공학\컴퓨터 조립\CPU\Ryzen.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/CPU/Ryzen.md</guid><pubDate>Thu, 03 Jul 2025 02:40:15 GMT</pubDate></item><item><title><![CDATA[아크]]></title><description><![CDATA[ 
  <br>Intel 사에서 만든 GPU다.<br>
 사용하는 사람이 적다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\아크.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/아크.md</guid><pubDate>Thu, 03 Jul 2025 02:37:36 GMT</pubDate></item><item><title><![CDATA[Apple사 가격]]></title><description><![CDATA[ 
- <br>CPU에 부착이 되어서 나온다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\Apple사 가격.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/Apple사 가격.md</guid><pubDate>Thu, 03 Jul 2025 02:33:38 GMT</pubDate></item><item><title><![CDATA[Nvidia]]></title><description><![CDATA[ 
+ <br>CPU에 부착이 되어서 나온다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\Apple사 가격.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/Apple사 가격.md</guid><pubDate>Thu, 03 Jul 2025 02:33:38 GMT</pubDate></item><item><title><![CDATA[GPU 가격]]></title><description><![CDATA[ 
+ <br>Nvidia는 게임용 그래픽 카드를 만들다가<br>
+어느날 비트코인이 유행하기 시작했는데<br>
+비트코인을 채굴하려면 무작위 연산이 필요했다.<br>
+근데 그걸 CPU로 하다가 코인 채굴하는게 많은 처리량을 필요로 하고 고성능을 필요로 하는건 아니라서<br>
+GPU로 코인을 채굴하니 많은 코인을 채굴할 수 있다는 사실을 알게되어<br>
+그래픽카드 가격이 올랐었다.<br>
+따라서 이 당시에는 코인 가격과 GPU 가격이 어느정도 상관관계가 있었다.<br>그리고는 chatGPT가 쓸만하다는 소식이 퍼지면서<br>
+인공지능에 대한 관심이 많이 생겼는데<br>
+인공지능도 많은 부동소수점 연산이 필요하기에 인공지능에 GPU가 사용되면서<br>
+Nvidia에서 인공지능용 GPU를 생산하게 되었는데 가격이 비싸도 잘 팔렸다.<br>
+개인이 인공지능을 돌리려고 할 때도 필요해서<br>
+GPU가격이 상당히 비싸졌다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\GPU 가격.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/GPU 가격.md</guid><pubDate>Thu, 10 Jul 2025 08:34:37 GMT</pubDate></item><item><title><![CDATA[Nvidia]]></title><description><![CDATA[ 
  <br>이 그래픽 카드는 전기를 잡아먹는 그래픽 카드다.<br>
 노트북에 이 그래픽 카드가 달려있으면 배터리 사용 시간이 확 줄어든다.<br>
-그래픽 카드를 사용하지 않아도 전기를 잡아먹는다.<br>성능<br>
+그래픽 카드를 사용하지 않아도 전기를 잡아먹는다.<br>
+그래서 애플이 Nvidia 그래픽 카드를 사용하지 않는다.<br>성능<br>
 성능은 좋은 편이다.<br>
 성능에 한계를 느꼈는지 DLSS를 통해 AI로 프레임을 생성하는 기술을 만들어서<br>
 게임 성능을 배로 증가시킨다.<br>
@@ -1498,7 +1529,7 @@ DLSS는 Nvidia 그래픽 카드만 사용이 가능하고<br>
 돈을 쓸어담 듯이 벌고 있다.<br>
 인공지능 라이브러리들이 다 Nvidia를 기준으로 제작이 되어서<br>
 정확히는 CUDA를 기준으로 제작이 되어서<br>
-인공지능을 돌리려면 왠만하면 Nvidia를 선택하는게 좋은 선택이다.<br>레이트레이싱 기술을 지원한다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\Nvidia.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/Nvidia.md</guid><pubDate>Thu, 03 Jul 2025 07:30:25 GMT</pubDate></item><item><title><![CDATA[Radeon]]></title><description><![CDATA[ 
+인공지능을 돌리려면 왠만하면 Nvidia를 선택하는게 좋은 선택이다.<br>레이트레이싱 기술을 지원한다.]]></description><link>컴퓨터 공학\컴퓨터 조립\GPU\Nvidia.html</link><guid isPermaLink="false">컴퓨터 공학/컴퓨터 조립/GPU/Nvidia.md</guid><pubDate>Thu, 10 Jul 2025 08:34:59 GMT</pubDate></item><item><title><![CDATA[Radeon]]></title><description><![CDATA[ 
  <br>AMD 사에서 만든 GPU다.<br>성능으로는<br>
 Nvidia와 비교가능할 정도지만<br>
 인공지능에서는 확실하게 밀리고 있다.<br>AFMF를 통해 AI로 프레임을 생성해내는 기능을 지원하며<br>
@@ -1551,7 +1582,10 @@ rollback을 하면 취소된다.]]></description><link>컴퓨터 공학\프레�
 run(ApplicationArguments args) 메서드를 구현해야한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트.md</guid><pubDate>Mon, 23 Jun 2025 01:48:22 GMT</pubDate></item><item><title><![CDATA[스프링부트 세팅]]></title><description><![CDATA[ 
  <br>컴파일 옵션에 "-parameters" 옵션을 추가한다.<br>
 이 기능은 함수의 매개변수의 이름을 저장하게 만들어서<br>
-매개변수의 이름을 가진 빈을 사용해야하는 경우가 발생하는데 이 경우에 사용된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 세팅.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 세팅.md</guid><pubDate>Mon, 07 Jul 2025 00:25:56 GMT</pubDate></item><item><title><![CDATA[스프링부트 쿠키]]></title><description><![CDATA[ 
+매개변수의 이름을 가진 빈을 사용해야하는 경우가 발생하는데 이 경우에 사용된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 세팅.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 세팅.md</guid><pubDate>Mon, 07 Jul 2025 00:25:56 GMT</pubDate></item><item><title><![CDATA[스프링부트 시큐리티]]></title><description><![CDATA[ 
+ <br>인증과 인가 기능을 가졌다.<br>타임 리프를 사용하면 세션을 통해 인증과 인가를 함<br>
+JWT를 지원하지 않기에 JWT를 사용하려면 filter를 사용해 인증을 하고<br>
+인증에서 얻은 역할로 인가를 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 시큐리티.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 시큐리티.md</guid><pubDate>Thu, 10 Jul 2025 06:50:49 GMT</pubDate></item><item><title><![CDATA[스프링부트 쿠키]]></title><description><![CDATA[ 
  <br>Cookie 객체를 만들어서 HttpServletResponse에 addCookie를 통해 넣으면 된다.<br>
 <a data-href="쿠키" href="컴퓨터 공학\인터넷\web\back end\쿠키.html" class="internal-link" target="_self" rel="noopener nofollow">쿠키</a>]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 쿠키.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 쿠키.md</guid><pubDate>Mon, 07 Jul 2025 05:30:24 GMT</pubDate></item><item><title><![CDATA[스프링부트 흐름]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 흐름.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 흐름.md</guid><pubDate>Mon, 07 Jul 2025 00:26:06 GMT</pubDate></item><item><title><![CDATA[스프링부트 AI]]></title><description><![CDATA[ 
@@ -1567,7 +1601,9 @@ run(ApplicationArguments args) 메서드를 구현해야한다.]]></description>
 만약 class를 만들어 Form을 만들면 @Validated를 없애도 된다.<br><br>아이디와 비밀번호를 서버에 전송해서 해당 유저에 맞는 서비스를 제공하는 방식도 있고<br>
 로그인을 하면 API 키를 제공해서 API키를 통해 유저에 맞는 서비스를 제공하게 하는 방식도 있다.<br>
 API 키의 경우 경로에 같이 넣어서 사용할 수는 있지만 보안상 문제가 발생할 가능성이 있기에<br>
-헤더에 넣어서 요청을 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 Validation.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 Validation.md</guid><pubDate>Mon, 07 Jul 2025 01:06:01 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
+헤더에 넣어서 요청을 한다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\스프링 부트\스프링부트 Validation.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/스프링 부트/스프링부트 Validation.md</guid><pubDate>Mon, 07 Jul 2025 01:06:01 GMT</pubDate></item><item><title><![CDATA[Django]]></title><description><![CDATA[ 
+ <br>파이썬 언어를 지원하는 웹 프레임 워크다.<br>
+큰 프로젝트를 만들 때 사용된다.]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\Django\Django.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/Django/Django.md</guid><pubDate>Thu, 10 Jul 2025 08:40:06 GMT</pubDate></item><item><title><![CDATA[Flask]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\프레임워크\웹 프레임워크\Flask\Flask.html</link><guid isPermaLink="false">컴퓨터 공학/프레임워크/웹 프레임워크/Flask/Flask.md</guid><pubDate>Mon, 30 Jun 2025 08:13:23 GMT</pubDate></item><item><title><![CDATA[생성]]></title><description><![CDATA[ 
  <br>React 컴포넌트를 통한 클라이언트 기능과 API 기능 및 서버 컴포넌트를 통한 서버 기능을 가진 프레임워크다.<br>기본적으로 사용하는 포트는 3000이다.<br><br>npx create-next-app@latest
 <br><br><br><br><br><br>npm run dev
@@ -1711,7 +1747,9 @@ filter, map 같은 함수로 보다 간략하게 표현한다.]]></description><
 그러면 전보다는 잘 맞을 것이다.<br>간단하게 설명하느라 약간의 오류가 있긴 하지만 순전파 알고리즘은 값을 수정하면 입력층에서의 나비효과로 결과에 영향이 커서 학습에 시간이 많이 걸린다는 것이고<br>
 역전파 알고리즘은 답을 맞춰놓고 입력층까지의 층에 최적화를 진행하여 시간이 줄어든다는 것이다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\딥러닝\역전파 알고리즘.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/딥러닝/역전파 알고리즘.md</guid><pubDate>Fri, 27 Jun 2025 08:36:31 GMT</pubDate></item><item><title><![CDATA[활성화 함수]]></title><description><![CDATA[ 
  ]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\딥러닝\활성화 함수.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/딥러닝/활성화 함수.md</guid><pubDate>Sat, 21 Jun 2025 12:59:15 GMT</pubDate></item><item><title><![CDATA[최적화 알고리즘]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\최적화 알고리즘\최적화 알고리즘.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/최적화 알고리즘/최적화 알고리즘.md</guid><pubDate>Fri, 27 Jun 2025 08:26:05 GMT</pubDate></item><item><title><![CDATA[머신러닝]]></title><description><![CDATA[ 
+ ]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\최적화 알고리즘\최적화 알고리즘.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/최적화 알고리즘/최적화 알고리즘.md</guid><pubDate>Fri, 27 Jun 2025 08:26:05 GMT</pubDate></item><item><title><![CDATA[분류]]></title><description><![CDATA[ 
+ <br>데이터를 학습해서 입력값을 어느 부류에 속하는지 분류한다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\활용\분류\분류.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/활용/분류/분류.md</guid><pubDate>Thu, 10 Jul 2025 08:41:57 GMT</pubDate></item><item><title><![CDATA[회귀]]></title><description><![CDATA[ 
+ <br>데이터를 학습해서 입력값에 따른 결과값을 추측한다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\활용\회귀\회귀.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/활용/회귀/회귀.md</guid><pubDate>Thu, 10 Jul 2025 08:41:32 GMT</pubDate></item><item><title><![CDATA[머신러닝]]></title><description><![CDATA[ 
  <br>말 그대로 기계가 학습하는 것을 말한다.]]></description><link>컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\머신러닝.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/알고리즘/인공지능/머신러닝/머신러닝.md</guid><pubDate>Sun, 22 Jun 2025 08:04:22 GMT</pubDate></item><item><title><![CDATA[Multi-Layer Perceptron]]></title><description><![CDATA[ 
  <br>입력을 받는 부분 내부적으로 연산하는 부분 출력하는 부분을 나눠서 만든 <a data-href="Perceptron" href="컴퓨터 공학\프로그래밍\알고리즘\인공지능\머신러닝\Perceptron.html" class="internal-link" target="_self" rel="noopener nofollow">Perceptron</a>입니다.<br>
 층을 여러개로 나눴다고 해서 Multi-Layer입니다.<br>
@@ -2178,7 +2216,7 @@ sort 함수에 reverse=True를 붙여주면 된다.<br><br>그저 1차원 배열
 이 경우 간단하게 만들 수 있다.<br>sort 함수에 key = lambda x: ... 필요한 로직을 넣어주면 그것에 맞게 정렬해준다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python sort.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python sort.md</guid><pubDate>Wed, 09 Jul 2025 08:32:29 GMT</pubDate></item><item><title><![CDATA[int]]></title><description><![CDATA[ 
  <br>litteral 빼고 전부 다 객체로 되어 있다고 보면 된다.<br><br>정수를 저장하는 자료형이다.<br>
 크기가 제한되지 않는다.<br><br>문자열을 저장하는 자료형이다.<br><br>소수를 저장하는 자료형이다.<br><br>여러 값을 저장하는 <a data-href="List" href="컴퓨터 공학\프로그래밍\자료 구조\List.html" class="internal-link" target="_self" rel="noopener nofollow">List</a>다.<br><br><a data-href="Hash Table" href="컴퓨터 공학\프로그래밍\자료 구조\Hash Table.html" class="internal-link" target="_self" rel="noopener nofollow">Hash Table</a>구조의 딕셔너리다.<br><br>동일한 요소를 허용시키지 않는 Hash set이다.]]></description><link>컴퓨터 공학\프로그래밍\언어\인터프리터 언어\Python\Python types.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/인터프리터 언어/Python/Python types.md</guid><pubDate>Fri, 04 Jul 2025 08:37:51 GMT</pubDate></item><item><title><![CDATA[cmake]]></title><description><![CDATA[ 
- ]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\빌드\cmake.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/빌드/cmake.md</guid><pubDate>Tue, 01 Jul 2025 02:39:16 GMT</pubDate></item><item><title><![CDATA[make]]></title><description><![CDATA[ 
+ <br>make를 좀 더 간단하게 사용하기 위해 사용합니다.]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\빌드\cmake.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/빌드/cmake.md</guid><pubDate>Thu, 10 Jul 2025 08:44:54 GMT</pubDate></item><item><title><![CDATA[make]]></title><description><![CDATA[ 
  <br>C 계열 코드를 빌드할 때 사용한다.<br>
 사용할 때 순서, 링크가 좀 복잡하다.<br>
 그래서 CMake가 나타났다.]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\빌드\make.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/빌드/make.md</guid><pubDate>Tue, 08 Jul 2025 08:03:03 GMT</pubDate></item><item><title><![CDATA[ninja]]></title><description><![CDATA[ 
@@ -2246,7 +2284,14 @@ private:
 public:
 	A(int a):a(a){}
 }
-<br>이런식으로 초기화를 할 수 있다.]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\C++\C++ class.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/C++/C++ class.md</guid><pubDate>Wed, 09 Jul 2025 08:37:56 GMT</pubDate></item><item><title><![CDATA[C++ template]]></title><description><![CDATA[ 
+<br>이런식으로 초기화를 할 수 있다.<br><br>객체가 해제될 때 실행되는 메소드다.<br>class A{
+private:
+	int a;
+public:
+	A(int a):a(a){}
+	~A(){}
+}
+<br>이렇게 클래스 이름 앞에 ~를 붙여서 소멸자를 표시합니다.]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\C++\C++ class.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/C++/C++ class.md</guid><pubDate>Thu, 10 Jul 2025 08:46:34 GMT</pubDate></item><item><title><![CDATA[C++ template]]></title><description><![CDATA[ 
  <br>컴파일 타임에 연산을 할 수 있다.<br>
 재귀적으로 사용해서 연산을 한다.<br>
 엄청 자유로워서 피보나치 연산도 가능하다.<br>제네릭을 구현할 때도 쓰고<br>
@@ -2281,7 +2326,19 @@ int main(){
 	printf("%d\n", *(b).a);
 }
 <br>구조체 포인터가 있으면 이런식으로 접근해야한다.<br>
-하지만 이게 불편할 수 있는데]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\포인터.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/포인터.md</guid><pubDate>Wed, 02 Jul 2025 06:32:58 GMT</pubDate></item><item><title><![CDATA[전체적인 흐름]]></title><description><![CDATA[ 
+하지만 이게 불편할 수 있는데<br>이걸 줄여줄 수 있다.<br>#include &lt;stdio.h&gt;
+struct A{
+	int a;
+}
+
+int main(){
+	struct A a = {1};
+	struct A* b = &amp;a;
+	printf("%d\n", b-&gt;a);
+}
+<br>-&gt;이렇게 하면 이 포인터가 가리키는 객체의 멤버에 접근한다는 표시다.<br>
+다른 언어에서는 이런 표현을 보기 힘든데<br>
+그 이유는 그게 슈가코드이기 때문이다.]]></description><link>컴퓨터 공학\프로그래밍\언어\C 계열\포인터.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/C 계열/포인터.md</guid><pubDate>Thu, 10 Jul 2025 08:48:55 GMT</pubDate></item><item><title><![CDATA[전체적인 흐름]]></title><description><![CDATA[ 
  <br>내가 보기엔 함수형 프로그래밍 방식을 채택한 것으로 보임<br>
 파이썬의 range와 listcomprehension과 비슷한 것으로 보인다.<br><br>stream을 통해 열고<br>
 filter를 통해 거르고<br>
@@ -2467,7 +2524,9 @@ public void increment() {
 하지만 lastinit을 통해 초기화의 시점을 변경할 수 있다.<br>
 초기화를 한 후에는 변경이 불가능하다.]]></description><link>컴퓨터 공학\프로그래밍\언어\Java 계열\Kotlin\Kotlin 변수.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/Java 계열/Kotlin/Kotlin 변수.md</guid><pubDate>Tue, 08 Jul 2025 08:25:38 GMT</pubDate></item><item><title><![CDATA[#]]></title><description><![CDATA[ 
  <br>현재 사용하는 문서를 기술하는 언어<br><br>개수가 늘어나면 크키가 작아짐]]></description><link>컴퓨터 공학\프로그래밍\언어\Mark 언어\Markdown Language\Markdown Language.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/Mark 언어/Markdown Language/Markdown Language.md</guid><pubDate>Fri, 13 Jun 2025 03:33:04 GMT</pubDate></item><item><title><![CDATA[Markup Language]]></title><description><![CDATA[ 
- <br>태그 기호 &lt;&gt;등을 이용하여 문서나 데이터를 기술하는 언어<br><a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>이 포함된다.]]></description><link>컴퓨터 공학\프로그래밍\언어\Mark 언어\Markup Language\Markup Language.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/Mark 언어/Markup Language/Markup Language.md</guid><pubDate>Thu, 19 Jun 2025 08:12:40 GMT</pubDate></item><item><title><![CDATA[변수]]></title><description><![CDATA[ 
+ <br>태그 기호 &lt;&gt;등을 이용하여 문서나 데이터를 기술하는 언어<br><a data-href="HTML" href="컴퓨터 공학\인터넷\web\데이터양식\HTML\HTML.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>이 포함된다.]]></description><link>컴퓨터 공학\프로그래밍\언어\Mark 언어\Markup Language\Markup Language.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/Mark 언어/Markup Language/Markup Language.md</guid><pubDate>Thu, 19 Jun 2025 08:12:40 GMT</pubDate></item><item><title><![CDATA[XML]]></title><description><![CDATA[ 
+ <br>데이터를 저장하고 전달하기 위한 마크업 언어다.<br>
+구조화된 데이터를 표현하고 교환하는데 사용한다.]]></description><link>컴퓨터 공학\프로그래밍\언어\Mark 언어\Markup Language\XML.html</link><guid isPermaLink="false">컴퓨터 공학/프로그래밍/언어/Mark 언어/Markup Language/XML.md</guid><pubDate>Thu, 10 Jul 2025 08:49:41 GMT</pubDate></item><item><title><![CDATA[변수]]></title><description><![CDATA[ 
  <br>대부분의 에러의 원인이 메모리에서 나온다는 것을 해결하기 위해<br>
 메모리를 자동으로 정리하지만 메모리를 해제할 때 해제할 메모리를 찾는 오버헤드를 피하기 위해<br>
 만들어낸 언어다.<br>
@@ -2873,16 +2932,7 @@ form member;
  <br>아래로 이루어짐<br><br><br><br>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\SQL\SQL.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/SQL/SQL.md</guid><pubDate>Mon, 09 Jun 2025 03:21:22 GMT</pubDate></item><item><title><![CDATA[COMMIT]]></title><description><![CDATA[ 
  <br><br><br>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\SQL\TCL.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/SQL/TCL.md</guid><pubDate>Mon, 09 Jun 2025 03:20:51 GMT</pubDate></item><item><title><![CDATA[ORM]]></title><description><![CDATA[ 
  <br>Object Relational Mapping의 약자로<br>데이터베이스에 연결 시 <a data-href="SQL" href="컴퓨터 공학\프로그램\데이터 베이스\SQL\SQL.html" class="internal-link" target="_self" rel="noopener nofollow">SQL</a>이 아닌 어플리케이션 개발 언어로 데이터베이스에 접근하게 하는 툴<br>
-<a data-tooltip-position="top" aria-label="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%B0%B1%EC%97%94%EB%93%9C-orm-object-relational-mapping-%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88-c43b69028957" rel="noopener nofollow" class="external-link" href="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%B0%B1%EC%97%94%EB%93%9C-orm-object-relational-mapping-%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88-c43b69028957" target="_blank">출처</a>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\ORM.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/ORM.md</guid><pubDate>Mon, 23 Jun 2025 01:26:30 GMT</pubDate></item><item><title><![CDATA[<a data-href="Git" href="컴퓨터 공학/프로그램/버전관리/Git/Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>]]></title><description><![CDATA[ 
- <br><br><br>내 컴퓨터의 로컬 깃 히스토리를 서버에 올릴 수 있다.<br>
-그럼 내 동료가 서버로 부터 코드를 가져올 수 있어서 협업이 가능하다.<br>
-다른 곳에서도 가능하다<br>
-Bitbucket이나 GitLab인데 유명하진 않음]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\깃, 깃허브 초기 개념.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/깃, 깃허브 초기 개념.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[소스 코드 관리 정책]]></title><description><![CDATA[ 
- <br>상황에 맞는 브랜치 전략을 선택하면 됨<br><br>여러 개발자가 동시에 다양한 기능 개발<br>
-최종적으로 안정적인 소프트웨어 배포 보장<br>Git workflow라고도 불림<br>Git-flow, GitHub-flow가 있음<br><br><br><br>장기간 프로젝트가 존재하고 핫픽스 등 유지보수 전략이 필요하면 GIT-flow<br>
-아니면 GitHub-flow<br><br><br>코드 병합을 믿어라<br>
-극단적인 브랜치 전략을 피해라<br>
-가능하다면 브랜치 계층 구조를 단순화해라]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\브랜치 전략.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/브랜치 전략.md</guid><pubDate>Mon, 16 Jun 2025 08:13:21 GMT</pubDate></item><item><title><![CDATA[창시자 리누스 토발즈]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%B0%B1%EC%97%94%EB%93%9C-orm-object-relational-mapping-%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88-c43b69028957" rel="noopener nofollow" class="external-link" href="https://jalynne-kim.medium.com/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%B0%B1%EC%97%94%EB%93%9C-orm-object-relational-mapping-%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%A2%85%EB%A5%98-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88-c43b69028957" target="_blank">출처</a>]]></description><link>컴퓨터 공학\프로그램\데이터 베이스\ORM.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/데이터 베이스/ORM.md</guid><pubDate>Mon, 23 Jun 2025 01:26:30 GMT</pubDate></item><item><title><![CDATA[창시자 리누스 토발즈]]></title><description><![CDATA[ 
  <br><a data-href="VCS" href="컴퓨터 공학\프로그램\버전관리\VCS.html" class="internal-link" target="_self" rel="noopener nofollow">VCS</a> 기술이다.<br>
 소스코드를 저장하기 위한 기술<br>
 모든 파일의 변화를 기록한다.<br>여러가지 갈래로 나뉘어 질 수도 있고<br>
@@ -2891,8 +2941,8 @@ Bitbucket이나 GitLab인데 유명하진 않음]]></description><link>컴퓨터
 비트 키퍼가 너무 비싸서 Git을 만들어냈다.<br><br><br><br>Git이 추적하지 않아야 할 파일들을 지정하는 설정 파일<br>
 폴더 및 파일들을 적으면 git commit할 때 대상으로 뜨지 않는다.<br>
 따라서 git에 올라가면 안되는 파일들 예를 들어 api 키 파일, DB 계정 정보 같은 경우 포함시키지 않기 위해 사용한다.<br><br>브랜치 전략 설계 블로그 보면 좋을 듯<br>
-생활코딩의 git 영상 보면 좋을듯]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git.md</guid><pubDate>Mon, 16 Jun 2025 08:16:25 GMT</pubDate></item><item><title><![CDATA[로컬 저장소]]></title><description><![CDATA[ 
- <br>여기 적혀있는 기능은 <a data-href="Git 명령" href="컴퓨터 공학\프로그램\버전관리\Git\Git 명령.html" class="internal-link" target="_self" rel="noopener nofollow">Git 명령</a>을 통해 사용 가능<br><br>개인 컴퓨터에 존재하는 저장소<br>
+생활코딩의 git 영상 보면 좋을듯]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git.md</guid><pubDate>Mon, 16 Jun 2025 08:16:25 GMT</pubDate></item><item><title><![CDATA[로컬 저장소]]></title><description><![CDATA[ 
+ <br>여기 적혀있는 기능은 <a data-href="Git 명령" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git 명령.html" class="internal-link" target="_self" rel="noopener nofollow">Git 명령</a>을 통해 사용 가능<br><br>개인 컴퓨터에 존재하는 저장소<br>
 원격 저장소 코드의 복제다.<br>
 로컬 저장소의 코드를 원격 저장소로 올린다.<br><br>로컬 저장소가 바라보는 공유 저장소<br>
 별도의 서버로 관리한다.<br><br>동기화 하지 않을 파일들이다.<br><br>동기화할 파일들을 말한다.<br><br>코드를 바라보는 시점<br>
@@ -2908,12 +2958,12 @@ Branch A와 Branch B 변경 사항을 병합 시도<br><br>여러 commit을 하�
 merge를 하면 충돌이 발생하지 않음<br>
 브랜치가 참조하는 Commit의 기준점을 변경하는거임<br><br><br>새로운 commit을 생성한다.<br>
 특정 commit 변경사항을 취소하고 취소한 변경 사항을 반영하는 commit을 생성한다.<br><br>이전 commit 상태로 돌아가고 이후 commit은 제거된다.<br><br>파일을 변경하진 않고 이전 기록은 새로운 브랜치로 만든다.<br><br><br>브랜치 commit 일부를 HEAD로 바라보는 branch에 적용한다.<br>
-자주 안쓰임<br><br>코드의 변경 사항을 commit하지 않고 임시 저장<br><br>Git Repository를 다른 Git Repository에 포함시키는 기능]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git 기능.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git 기능.md</guid><pubDate>Mon, 16 Jun 2025 06:21:50 GMT</pubDate></item><item><title><![CDATA[Working Directory]]></title><description><![CDATA[ 
- <br><a data-tooltip-position="top" aria-label="Git 명령 > git init" data-href="Git 명령#git init" href="컴퓨터 공학\프로그램\버전관리\Git\Git 명령.html#git_init" class="internal-link" target="_self" rel="noopener nofollow">git init</a> 명령어를 통해 세가지 영역이 만들어진다.<br><br>작업 환경에서 변경 사항 발생<br><br>변경사항을 스테이징 영역에 임시 저장 이때 스냅샷이 만들어진다.<br><br>순간을 포착하는 것을 의미한다.<br>
+자주 안쓰임<br><br>코드의 변경 사항을 commit하지 않고 임시 저장<br><br>Git Repository를 다른 Git Repository에 포함시키는 기능]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git 기능.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git 기능.md</guid><pubDate>Mon, 16 Jun 2025 06:21:50 GMT</pubDate></item><item><title><![CDATA[Working Directory]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="Git 명령 > git init" data-href="Git 명령#git init" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git 명령.html#git_init" class="internal-link" target="_self" rel="noopener nofollow">git init</a> 명령어를 통해 세가지 영역이 만들어진다.<br><br>작업 환경에서 변경 사항 발생<br><br>변경사항을 스테이징 영역에 임시 저장 이때 스냅샷이 만들어진다.<br><br>순간을 포착하는 것을 의미한다.<br>
 변경사항일 있을 경우는 변경된 파일을 새로 저장하고<br>
-변경사항이 없을 경우는 이전 파일의 스냅샷을 참조한다.<br><br>커밋을 통해 로컬 저장소에 저장한다.]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git 동작원리.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git 동작원리.md</guid><pubDate>Tue, 01 Jul 2025 08:15:32 GMT</pubDate></item><item><title><![CDATA[Git 등장 배경]]></title><description><![CDATA[ 
+변경사항이 없을 경우는 이전 파일의 스냅샷을 참조한다.<br><br>커밋을 통해 로컬 저장소에 저장한다.]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git 동작원리.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git 동작원리.md</guid><pubDate>Tue, 01 Jul 2025 08:15:32 GMT</pubDate></item><item><title><![CDATA[Git 등장 배경]]></title><description><![CDATA[ 
  <br>혼자 개발할 경우 문제가 없음<br>
-근데 여러명이서 같이 만들면 문제가 발생<br>서로 따로 만들다가 합칠 때 충돌이 발생할 가능성이 있다.<br>그래서 <a data-href="VCS" href="컴퓨터 공학\프로그램\버전관리\VCS.html" class="internal-link" target="_self" rel="noopener nofollow">VCS</a>를 만듬]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git 등장 배경.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git 등장 배경.md</guid><pubDate>Mon, 16 Jun 2025 05:11:38 GMT</pubDate></item><item><title><![CDATA[git init]]></title><description><![CDATA[ 
+근데 여러명이서 같이 만들면 문제가 발생<br>서로 따로 만들다가 합칠 때 충돌이 발생할 가능성이 있다.<br>그래서 <a data-href="VCS" href="컴퓨터 공학\프로그램\버전관리\VCS.html" class="internal-link" target="_self" rel="noopener nofollow">VCS</a>를 만듬]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git 등장 배경.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git 등장 배경.md</guid><pubDate>Mon, 16 Jun 2025 05:11:38 GMT</pubDate></item><item><title><![CDATA[git init]]></title><description><![CDATA[ 
  <br><br>git init
 <br><br>처음으로 원격 저장소에서 로컬 저장소로 불러올 때 사용함<br><br>원격 저장소로 코드 동기화<br><br>리포지토리 불러오는데 사용 가능<br>
 최신화 하는데 사용함<br>
@@ -2922,7 +2972,7 @@ merge를 하면 충돌이 발생하지 않음<br>
 여러 개의 파일에 여러 라인을 수정하더라도 하나로 묶을 수 있다.<br>
 commit 단위마다 메세지 입력이 가능하다.<br><br>해당 커밋으로 이동한다.<br><br>Branch를 병합하는 명령어다.<br>git merge --squach
 <br><br>브랜치가 참조하는 Commit 기준점을 변경하는 명령어<br><br>git의 히스토리를 확인 가능하다.<br><br>git remote add origin [url]
-]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git 명령.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git 명령.md</guid><pubDate>Fri, 20 Jun 2025 08:30:24 GMT</pubDate></item><item><title><![CDATA[Git-flow 브랜치]]></title><description><![CDATA[ 
+]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git 명령.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git 명령.md</guid><pubDate>Fri, 20 Jun 2025 08:30:24 GMT</pubDate></item><item><title><![CDATA[Git-flow 브랜치]]></title><description><![CDATA[ 
  <br><br><br>기능 개발 브랜치<br><br>개발 중인 코드가 모이는 곳<br><br>배포 준비 단계<br>
 배포할 코드가 모이는 곳<br><br>배포된 코드 이슈를 긴급 대응할 때 생성<br><br>고정 브랜치<br>
 최신 배포 코드<br>
@@ -2930,17 +2980,38 @@ commit 단위마다 메세지 입력이 가능하다.<br><br>해당 커밋으로
 <br>버저닝이 필요한
 <br>정기 배포<br>
 따라서 앱 애플리케이션에 적합
-]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\GIT-flow.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/GIT-flow.md</guid><pubDate>Mon, 16 Jun 2025 07:58:29 GMT</pubDate></item><item><title><![CDATA[Untracked]]></title><description><![CDATA[ 
- <br>Untracked를 제외한 상태는 다 추적 중이다.<br><br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>에게 추적되지 않는다.<br>
-<a data-tooltip-position="top" aria-label="Git 명령 > git add" data-href="Git 명령#git add" href="컴퓨터 공학\프로그램\버전관리\Git\Git 명령.html#git_add" class="internal-link" target="_self" rel="noopener nofollow">git add</a> 명령어를 통해 staged로 올릴 수 있다.<br><br>Git에게 추적되며 변경사항은 없는 상태다.<br>
+]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\GIT-flow.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/GIT-flow.md</guid><pubDate>Mon, 16 Jun 2025 07:58:29 GMT</pubDate></item><item><title><![CDATA[Untracked]]></title><description><![CDATA[ 
+ <br>Untracked를 제외한 상태는 다 추적 중이다.<br><br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>에게 추적되지 않는다.<br>
+<a data-tooltip-position="top" aria-label="Git 명령 > git add" data-href="Git 명령#git add" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git 명령.html#git_add" class="internal-link" target="_self" rel="noopener nofollow">git add</a> 명령어를 통해 staged로 올릴 수 있다.<br><br>Git에게 추적되며 변경사항은 없는 상태다.<br>
 이걸 수정하면 Modified 상태가 된다.<br><br>Git에게 추적되며 변경사항이 생긴 상태다.<br><br>Git 에게 추적되면 Staging Area에 스냅샷을 생성한다.<br>
-commit을 통해 내부 저장소에 저장이 가능한데 그러면 Unmodified 상태가 된다.]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Git의 네가시 상태.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Git의 네가시 상태.md</guid><pubDate>Tue, 01 Jul 2025 08:21:13 GMT</pubDate></item><item><title><![CDATA[역사]]></title><description><![CDATA[ 
- <br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>을 기반으로 한 웹 호스팅 서비스<br><br>2008년 4월 서비스 시작<br>
+commit을 통해 내부 저장소에 저장이 가능한데 그러면 Unmodified 상태가 된다.]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\local\Git의 네가시 상태.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/local/Git의 네가시 상태.md</guid><pubDate>Tue, 01 Jul 2025 08:21:13 GMT</pubDate></item><item><title><![CDATA[서브 모듈 사용하기]]></title><description><![CDATA[ 
+ <br>예시로 표현하려고 함<br>
+shop-project가 있고<br>
+그 밑에 back 폴더에는 backend 리포지토리<br>
+front 폴더에는 front 리포지토리를 생성해서<br>
+같이 사용하려고 한다.<br>git init shop-project
+cd shop-project
+git commit --allow-empty -m "init"
+<br>여기서는 일단 비운 상태로 commit을 한다.<br># 프론트 추가
+git submodule add https://github.com/yourname/shop-frontend front
+
+# 백엔드 추가
+git submodule add https://github.com/yourname/shop-backend back
+<br>git commit -m "Add frontend and backend submodules"
+git push origin main
+<br>클론할 때는<br>git clone --recursive https://github.com/yourname/shop-project.git
+<br>이렇게 --recursive가 필요하다.<br>서브모듈 변경 후<br>cd front
+git pull origin main  # 또는 변경 후 커밋
+cd ..
+git add front
+git commit -m "Update frontend submodule"
+<br>이렇게 각각 pull을 하고 commit을 해야한다.]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\origin\서브 모듈 사용하기.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/origin/서브 모듈 사용하기.md</guid><pubDate>Thu, 10 Jul 2025 08:13:15 GMT</pubDate></item><item><title><![CDATA[역사]]></title><description><![CDATA[ 
+ <br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>을 기반으로 한 웹 호스팅 서비스<br><br>2008년 4월 서비스 시작<br>
 CI/CD도 지원하게됨<br><br>공개 여부 설정 가능하고<br>
 .gitignore 파일을 통해 git에서 특정 파일이나 디렉토리를 버전 관리에서 제외하는데<br>
 이 파일도 자동적으로 넣어주는지 체크 가능<br><br>마크 다운 언어를 통해 프로젝트 개요, 설치 방법, 사용법, 기여 방법 등을 작성할 수 있다.<br><br>다른 사용자 repository에 내가 수정한 코드를 반영하도록 merge 요청<br>
 Repository 개발하는 다른 동료에게 코드 리뷰 요청<br><br>코드 조각, 구성 파일, 메모 등을 빠르게 공유하니 위한 용도<br>
-git repository와 같은 형태라 버전 관리가 가능하다.<br><br>IDE 내에서 chaGPT 기능을 쓸 수 있음<br>]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\GitHub.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/GitHub.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[Github Actions]]></title><description><![CDATA[ 
+git repository와 같은 형태라 버전 관리가 가능하다.<br><br>IDE 내에서 chaGPT 기능을 쓸 수 있음<br>]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\origin\GitHub.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/origin/GitHub.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[Github Actions]]></title><description><![CDATA[ 
  <br>코드 빌드 및 테스트<br>
 배포 자동화<br>
 정적 코드 분석<br>
@@ -2952,19 +3023,28 @@ push<br>
 pull request<br>
 Webhook<br><br>지속적 통함 Continuous Integration<br>
 지속적 제공/배포 Continuous Delivery/Deployment<br>
-소프트웨어 개발 라이프사이클 간소화<br>빌드 &amp; 테스트 자동화는 jenkins나 maven 사용<br>AWS 추천함<br><br>다른 개발자가 만들어 공개한 워크플로우 기능<br><br>별도 서버를 필요로 하지 않는다.<br><br>다른 사람이 만들어둔것 사용 가능<br><br>서버가 없는 스케쥴러를 만들 수 있음]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\Github Actions.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/Github Actions.md</guid><pubDate>Mon, 16 Jun 2025 06:51:26 GMT</pubDate></item><item><title><![CDATA[브랜치]]></title><description><![CDATA[ 
+소프트웨어 개발 라이프사이클 간소화<br>빌드 &amp; 테스트 자동화는 jenkins나 maven 사용<br>AWS 추천함<br><br>다른 개발자가 만들어 공개한 워크플로우 기능<br><br>별도 서버를 필요로 하지 않는다.<br><br>다른 사람이 만들어둔것 사용 가능<br><br>서버가 없는 스케쥴러를 만들 수 있음]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\origin\Github Actions.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/origin/Github Actions.md</guid><pubDate>Mon, 16 Jun 2025 06:51:26 GMT</pubDate></item><item><title><![CDATA[브랜치]]></title><description><![CDATA[ 
  <br>2011년 GitHub CIO인 Scott Chacon의 제안<br>워크플로우를 단순화 해야한다.<br><br><br><br><br>main -&gt; feature -&gt; feature -&gt; main<br>
 필요하면 feature 브랜치에서 feature 브랜치를 만들면 된다.<br><br>main 브랜치는 언제든지 배포 가능<br>
 모든 브랜치는 main 브랜치에서 파생<br>
 local 브랜치에서 commit 정기적으로 remote 브랜치로 push<br>
 도움이 필요하거나 코드 병합할 준비되면 pull request 생성<br>
-다른 사람이 변경된 코드를 승인하면 main 브랜치에 merge<br>이는 상시 배포에 적합]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\GitHub-flow.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/GitHub-flow.md</guid><pubDate>Mon, 16 Jun 2025 08:05:11 GMT</pubDate></item><item><title><![CDATA[로컬 버전 관리]]></title><description><![CDATA[ 
+다른 사람이 변경된 코드를 승인하면 main 브랜치에 merge<br>이는 상시 배포에 적합]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\origin\GitHub-flow.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/origin/GitHub-flow.md</guid><pubDate>Mon, 16 Jun 2025 08:05:11 GMT</pubDate></item><item><title><![CDATA[<a data-href="Git" href="컴퓨터 공학/프로그램/버전관리/Git/local/Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>]]></title><description><![CDATA[ 
+ <br><br><br>내 컴퓨터의 로컬 깃 히스토리를 서버에 올릴 수 있다.<br>
+그럼 내 동료가 서버로 부터 코드를 가져올 수 있어서 협업이 가능하다.<br>
+다른 곳에서도 가능하다<br>
+Bitbucket이나 GitLab인데 유명하진 않음]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\깃, 깃허브 초기 개념.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/깃, 깃허브 초기 개념.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[소스 코드 관리 정책]]></title><description><![CDATA[ 
+ <br>상황에 맞는 브랜치 전략을 선택하면 됨<br><br>여러 개발자가 동시에 다양한 기능 개발<br>
+최종적으로 안정적인 소프트웨어 배포 보장<br>Git workflow라고도 불림<br>Git-flow, GitHub-flow가 있음<br><br><br><br>장기간 프로젝트가 존재하고 핫픽스 등 유지보수 전략이 필요하면 GIT-flow<br>
+아니면 GitHub-flow<br><br><br>코드 병합을 믿어라<br>
+극단적인 브랜치 전략을 피해라<br>
+가능하다면 브랜치 계층 구조를 단순화해라]]></description><link>컴퓨터 공학\프로그램\버전관리\Git\브랜치 전략.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/Git/브랜치 전략.md</guid><pubDate>Mon, 16 Jun 2025 08:13:21 GMT</pubDate></item><item><title><![CDATA[로컬 버전 관리]]></title><description><![CDATA[ 
  <br><br><br>최초의 파일 기반 버전 관리 시스템<br>
 파일의 변경된 부분에 대해서 저장한다.<br>로컬에 저장하기 때문에 공유가 힘들고<br>
 로컬 컴퓨터가 고장나면 모두 다 잃는다.<br><br><br>중앙 집중식 버전 관리 시스템<br>
 중앙 서버에서 모든 버전 기록을 관리하는 방식이다.<br>서버가 다운되면 모든 작업이 중단된다.<br><br><br>분산 버전 관리 시스템<br>
 중앙 서버 없이도 버전 관리할 수 있는 방식이다.<br>
-RCS와 CVCS의 장점을 합했다.<br><br><a data-tooltip-position="top" aria-label="Git > 창시자 리누스 토발즈" data-href="Git#창시자 리누스 토발즈" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html#창시자_리누스_토발즈" class="internal-link" target="_self" rel="noopener nofollow">GIT</a>을 만들었다.]]></description><link>컴퓨터 공학\프로그램\버전관리\버전 관리 역사.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/버전 관리 역사.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[Version Control System]]></title><description><![CDATA[ 
+RCS와 CVCS의 장점을 합했다.<br><br><a data-tooltip-position="top" aria-label="Git > 창시자 리누스 토발즈" data-href="Git#창시자 리누스 토발즈" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git.html#창시자_리누스_토발즈" class="internal-link" target="_self" rel="noopener nofollow">GIT</a>을 만들었다.]]></description><link>컴퓨터 공학\프로그램\버전관리\버전 관리 역사.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/버전 관리 역사.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[Version Control System]]></title><description><![CDATA[ 
  <br><br>문서나 설계도 또는 소스 코드 등 다양한 파일의 변경 사항을 관리하는 소프트웨어<br><br><br>
 <br>히스토리 관리
 
@@ -3026,7 +3106,7 @@ RCS와 CVCS의 장점을 합했다.<br><br><a data-tooltip-position="top" aria-l
 <br><br>
 <br>BitKeeper
 <br>Subversion, SVN
-<br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>
+<br><a data-href="Git" href="컴퓨터 공학\프로그램\버전관리\Git\local\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>
 ]]></description><link>컴퓨터 공학\프로그램\버전관리\VCS.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/버전관리/VCS.md</guid><pubDate>Tue, 01 Jul 2025 08:11:02 GMT</pubDate></item><item><title><![CDATA[IntelliJ 설정]]></title><description><![CDATA[ 
  <br>코딩용 폰트 D2Coding]]></description><link>컴퓨터 공학\프로그램\IDE\JetBrains\IntelliJ 설정.html</link><guid isPermaLink="false">컴퓨터 공학/프로그램/IDE/JetBrains/IntelliJ 설정.md</guid><pubDate>Tue, 27 May 2025 07:54:29 GMT</pubDate></item><item><title><![CDATA[Ultimate]]></title><description><![CDATA[ 
  <br><br>유로 버전 IDE 모든 기능 사용가능<br><br>무료 버전 IDE<br><br>버그 리포팅을 위한 무료 버전<br><br>Toolbox를 통해 IDE 다운그레이드나 업데이트를 할 수 있다.<br><br>
